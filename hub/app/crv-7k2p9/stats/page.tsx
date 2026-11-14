@@ -1,5 +1,5 @@
 import { siteList } from "@/sites";
-import { STATS_TOKEN, STATS_URL } from "@/lib/stats-config";
+import { NOTION_DB_ID, notionHeaders, notionToken } from "@/lib/stats-config";
 import styles from "../../page.module.css";
 
 export const dynamic = "force-dynamic";
@@ -10,12 +10,58 @@ type Row = [string, string, string, string, string, string, string, string, numb
 
 const COUNTRY: Record<string, string> = { SA: "السعودية", EG: "مصر", AE: "الإمارات", KW: "الكويت", QA: "قطر", BH: "البحرين", OM: "عمان" };
 
+// بيقرا كل سطور جدول "زيارات المواقع" من نوشن (١٠٠ سطر في كل طلب)
+// ويحولها لنفس شكل الصف: time, slug, visitor, event, device, country, city, referrer, seconds, scroll
+const EVENT: Record<string, string> = { "فتح": "view", "واتساب": "whatsapp", "خروج": "leave" };
+const DEVICE: Record<string, string> = { "موبايل": "mobile", "كمبيوتر": "desktop" };
+
+type NotionProp = {
+  title?: { plain_text: string }[];
+  rich_text?: { plain_text: string }[];
+  select?: { name: string } | null;
+  number?: number | null;
+  created_time?: string;
+};
+
+const txt = (p?: NotionProp) => (p?.title ?? p?.rich_text ?? []).map((x) => x.plain_text).join("");
+
 async function loadRows(): Promise<Row[] | null> {
-  if (!STATS_URL) return null;
+  if (!notionToken()) return null;
+  const rows: Row[] = [];
+  let cursor: string | undefined;
   try {
-    const res = await fetch(`${STATS_URL}?token=${STATS_TOKEN}`, { cache: "no-store" });
-    const data = await res.json();
-    return data.ok ? data.rows : null;
+    for (let i = 0; i < 50; i++) {
+      const res = await fetch(`https://api.notion.com/v1/databases/${NOTION_DB_ID}/query`, {
+        method: "POST",
+        headers: notionHeaders(),
+        body: JSON.stringify({
+          page_size: 100,
+          start_cursor: cursor,
+          sorts: [{ timestamp: "created_time", direction: "ascending" }],
+        }),
+        cache: "no-store",
+      });
+      if (!res.ok) return null;
+      const data = await res.json();
+      for (const page of data.results as { created_time: string; properties: Record<string, NotionProp> }[]) {
+        const p = page.properties;
+        rows.push([
+          page.created_time,
+          txt(p["الموقع"]),
+          txt(p["الجهاز"]),
+          EVENT[p["الحدث"]?.select?.name ?? ""] ?? "",
+          DEVICE[p["نوع الجهاز"]?.select?.name ?? ""] ?? "",
+          txt(p["البلد"]),
+          txt(p["المدينة"]),
+          txt(p["جاي من"]),
+          p["المدة بالثواني"]?.number ?? "",
+          p["النزول %"]?.number ?? "",
+        ]);
+      }
+      if (!data.has_more) break;
+      cursor = data.next_cursor;
+    }
+    return rows;
   } catch {
     return null;
   }
@@ -71,7 +117,7 @@ export default async function Stats() {
 
       {rows === null ? (
         <p className={styles.empty}>
-          الإحصائيات مش متوصلة لسه. اتبع الخطوات اللي في <code>hub/scripts/stats-sheet.gs</code>.
+          الإحصائيات مش متوصلة لسه، أو مفتاح نوشن غلط. شوف الخطوات في <code>hub/lib/stats-config.ts</code>.
         </p>
       ) : (
         <div style={{ overflowX: "auto" }}>
