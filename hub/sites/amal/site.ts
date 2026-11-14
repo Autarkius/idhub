@@ -144,6 +144,8 @@ const nav = [
 ];
 
 export const site: SiteData = {
+  // تاريخ عمل الموقع: "YYYY-MM-DD"، أو "YYYY-MM" لو اليوم مش معروف
+  createdAt: "2026-11-14",
   brand,
   theme,
   projects,
