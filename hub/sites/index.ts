@@ -2,30 +2,26 @@
 // كل فولدر جوه sites/ فيه site.ts بيتحوّل لصفحة على /<اسم الفولدر>.
 
 import type { SiteData } from "@/lib/site";
-import { site as site0 } from "./ahlam/site";
+import { site as site0 } from "./abeer/site";
 import { site as site1 } from "./almousa/site";
 import { site as site2 } from "./ashwaq/site";
 import { site as site3 } from "./deemah/site";
 import { site as site4 } from "./faten/site";
-import { site as site5 } from "./fatmaibrahim/site";
-import { site as site6 } from "./ghaidaa/site";
-import { site as site7 } from "./ghanayem/site";
-import { site as site8 } from "./lena/site";
-import { site as site9 } from "./maged/site";
-import { site as site10 } from "./sara/site";
+import { site as site5 } from "./ghaidaa/site";
+import { site as site6 } from "./maged/site";
+import { site as site7 } from "./moza/site";
+import { site as site8 } from "./sara/site";
 
 export const sites: Record<string, SiteData> = {
-  "ahlam": site0,
+  "abeer": site0,
   "almousa": site1,
   "ashwaq": site2,
   "deemah": site3,
   "faten": site4,
-  "fatmaibrahim": site5,
-  "ghaidaa": site6,
-  "ghanayem": site7,
-  "lena": site8,
-  "maged": site9,
-  "sara": site10,
+  "ghaidaa": site5,
+  "maged": site6,
+  "moza": site7,
+  "sara": site8,
 };
 
 export const siteList = Object.entries(sites).map(([slug, site]) => ({ slug, site }));
