@@ -7,6 +7,7 @@ import "@fontsource/cairo/900.css";
 import "./globals.css";
 import "./site.css";
 import { sites } from "@/sites";
+import TrackVisits from "./TrackVisits";
 
 // الدومين بيتاخد من Vercel تلقائي، وده علشان روابط صور المعاينة تبقى كاملة.
 const siteUrl = process.env.VERCEL_PROJECT_PRODUCTION_URL
@@ -37,7 +38,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <head>
         <script dangerouslySetInnerHTML={{ __html: themeScript }} />
       </head>
-      <body>{children}</body>
+      <body>
+        {children}
+        <TrackVisits />
+      </body>
     </html>
   );
 }

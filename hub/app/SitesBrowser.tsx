@@ -1,6 +1,7 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
+import { TEAM_FLAG } from "./TrackVisits";
 import styles from "./page.module.css";
 
 export type SiteCard = {
@@ -53,6 +54,13 @@ export default function SitesBrowser({ sites }: { sites: SiteCard[] }) {
   const [month, setMonth] = useState<string>("all");
   const [day, setDay] = useState<number | "all">("all");
   const [query, setQuery] = useState("");
+
+  // الجهاز ده بتاع الفريق، فزياراته للمواقع ما تتحسبش في الإحصائيات
+  useEffect(() => {
+    try {
+      localStorage.setItem(TEAM_FLAG, "1");
+    } catch {}
+  }, []);
   const [copied, setCopied] = useState<string | null>(null);
 
   const copy = async (key: string, text: string) => {

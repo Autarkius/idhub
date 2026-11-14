@@ -23,6 +23,11 @@ export default function Home() {
         <p className={styles.sub}>
           {sites.length} {sites.length === 1 ? "موقع" : "مواقع"} متاحين على الروابط دي.
         </p>
+        <p className={styles.sub}>
+          <a href="/crv-7k2p9/stats" style={{ color: "var(--accent)", fontWeight: 700 }}>
+            الإحصائيات ←
+          </a>
+        </p>
       </header>
 
       {sites.length === 0 ? (
