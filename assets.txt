@@ -1,4 +1,10 @@
 hub/public/sites
+├── ahlam
+│   ├── brand
+│   │   └── logo.png
+│   └── images
+│       ├── identity.webp
+│       └── projects
 ├── almousa
 │   ├── brand
 │   │   └── logo.png
@@ -11,11 +17,53 @@ hub/public/sites
 │   └── images
 │       ├── identity.jpg
 │       └── projects
-└── faten
+├── deemah
+│   ├── brand
+│   │   └── deemah.png
+│   └── images
+│       ├── identity.jpg
+│       └── projects
+├── faten
+│   ├── brand
+│   │   └── logo.png
+│   └── images
+│       ├── identity.jpg
+│       └── projects
+├── fatmaibrahim
+│   ├── brand
+│   │   └── logo.png
+│   └── images
+│       ├── identity.webp
+│       └── projects
+├── ghaidaa
+│   ├── brand
+│   │   └── logo.png
+│   └── images
+│       ├── identity.jpg
+│       └── projects
+├── ghanayem
+│   ├── brand
+│   │   └── logo.png
+│   └── images
+│       ├── identity.webp
+│       └── projects
+├── lena
+│   ├── brand
+│   │   └── logo.png
+│   └── images
+│       ├── identity.webp
+│       └── projects
+├── maged
+│   ├── brand
+│   │   └── logo.png
+│   └── images
+│       ├── identity.jpg
+│       └── projects
+└── sara
     ├── brand
     │   └── logo.png
     └── images
         ├── identity.jpg
         └── projects
 
-13 directories, 6 files
+45 directories, 22 files
