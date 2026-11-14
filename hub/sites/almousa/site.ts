@@ -5,7 +5,7 @@ import type { Contact, Project, ServiceItem, SiteData } from "@/lib/site";
 
 const brand = {
   name: "Maryam Almousa",
-  logo: "/sites/almousa/brand/logo.png",
+  logo: "/sites/almousa/brand/logo.webp",
   logoWidth: 60,
   logoHeight: 60,
   title: "مريم الموسى | تصميم داخلي",
@@ -28,35 +28,35 @@ const projects: Project[] = [
     slug: "living-room",
     name: "صالة المعيشة",
     category: "تصميم داخلي / معيشة",
-    image: "/sites/almousa/images/projects/living-room.jpg",
+    image: "/sites/almousa/images/projects/living-room.webp",
     href: "#works",
   },
   {
     slug: "master-bedroom",
     name: "جناح النوم الرئيسي",
     category: "تصميم داخلي / نوم",
-    image: "/sites/almousa/images/projects/bedroom.jpg",
+    image: "/sites/almousa/images/projects/bedroom.webp",
     href: "#works",
   },
   {
     slug: "master-bathroom",
     name: "الحمام الرئيسي",
     category: "تصميم وتنفيذ / حمام",
-    image: "/sites/almousa/images/projects/bathroom.jpg",
+    image: "/sites/almousa/images/projects/bathroom.webp",
     href: "#works",
   },
   {
     slug: "walk-in-closet",
     name: "غرفة الملابس",
     category: "تصميم مخصص / ملابس",
-    image: "/sites/almousa/images/projects/closet.jpg",
+    image: "/sites/almousa/images/projects/closet.webp",
     href: "#works",
   },
   {
     slug: "entrance",
     name: "المدخل",
     category: "تصميم داخلي / مدخل",
-    image: "/sites/almousa/images/projects/entry.jpg",
+    image: "/sites/almousa/images/projects/entry.webp",
     href: "#works",
   },
 ];
@@ -103,7 +103,7 @@ const identity = {
     "تنفيذ وتسليم مفتاح بإشراف كامل.",
     "استشارات معتمدة من الهيئة السعودية للمهندسين.",
   ],
-  image: "/sites/almousa/images/lounge.jpg",
+  image: "/sites/almousa/images/lounge.webp",
   imageLabel: "M.A DESIGN",
 };
 
@@ -152,6 +152,9 @@ const nav = [
 ];
 
 export const site: SiteData = {
+  // تاريخ عمل الموقع: "YYYY-MM-DD"، أو "YYYY-MM" لو اليوم مش معروف
+  greetName: "م. مريم",
+  createdAt: "2026-11",
   brand,
   theme,
   projects,

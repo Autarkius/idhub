@@ -7,7 +7,7 @@ const theme = generateTheme("#9c7a62");
 
 const brand = {
   name: "MOZA Interior Design",
-  logo: "/sites/moza/brand/logo.png",
+  logo: "/sites/moza/brand/logo.webp",
   logoWidth: 60,
   logoHeight: 60,
   title: "موزة للتصميم الداخلي | حائل",
@@ -17,38 +17,31 @@ const brand = {
 
 const projects: Project[] = [
   {
-    slug: "luxury-living-room",
-    name: "صالة المعيشة الفاخرة",
+    slug: "arch-living",
+    name: "صالة المعيشة بالأقواس",
     category: "تصميم داخلي / معيشة",
-    image: "/sites/sara/images/projects/living-room.jpg",
+    image: "/sites/moza/images/projects/arch-living.webp",
     href: "#works",
   },
   {
-    slug: "dining-concept",
-    name: "غرفة الطعام والضيافة",
-    category: "تصميم داخلي / ضيافة ومودبورد",
-    image: "/sites/sara/images/projects/dining-concept.jpg",
+    slug: "living-room",
+    name: "جلسة المعيشة",
+    category: "تصميم وتنفيذ / معيشة",
+    image: "/sites/moza/images/projects/living-room.webp",
     href: "#works",
   },
   {
-    slug: "home-office-study",
-    name: "مكتب ومساحة دراسة",
-    category: "تصميم وتنفيذ مخصص / عمل",
-    image: "/sites/sara/images/projects/home-office.jpg",
-    href: "#works",
-  },
-  {
-    slug: "furniture-styling",
-    name: "تفاصيل وتنسيق الأثاث",
+    slug: "armchair",
+    name: "ركن الجلوس",
     category: "تأثيث واختيار خامات / تفاصيل",
-    image: "/sites/sara/images/projects/living-details.jpg",
+    image: "/sites/moza/images/projects/armchair.webp",
     href: "#works",
   },
   {
-    slug: "master-bedroom",
-    name: "جناح النوم الرئيسي",
-    category: "تصميم داخلي / نوم",
-    image: "/sites/sara/images/projects/bedroom.jpg",
+    slug: "planter-corner",
+    name: "ركن الضيافة",
+    category: "تنسيق وألوان / تفاصيل",
+    image: "/sites/moza/images/projects/planter-corner.webp",
     href: "#works",
   },
 ];
@@ -95,7 +88,7 @@ const identity = {
     "تصاميم فريدة تواكب أحدث معايير التصميم العالمي.",
     "حلول عملية ومبتكرة تناسب أسلوب حياتك وميزانيتك.",
   ],
-  image: "/sites/sara/images/identity.jpg",
+  image: "/sites/moza/images/identity.webp",
   imageLabel: "MOZA DESIGN",
 };
 
@@ -114,10 +107,10 @@ const clients = {
 const contact: Contact = {
   ctaEyebrow: "جاهز لبدء مشروعك؟",
   ctaTitle: "ابدأ مشروعك مع موزة للتصميم الداخلي",
-  ctaButton: "تواصل معنا",
-  ctaHref: "https://linktr.ee/Moza_d2017",
-  whatsapp: "https://linktr.ee/Moza_d2017",
-  phone: "",
+  ctaButton: "تواصل عبر واتساب",
+  ctaHref: "https://wa.me/966506753025",
+  whatsapp: "https://wa.me/966506753025",
+  phone: "+966 50 675 3025",
   email: "",
   branches: [{ address: "حائل - شارع فهد العريفي، المملكة العربية السعودية" }],
   social: {
@@ -144,6 +137,8 @@ const nav = [
 ];
 
 export const site: SiteData = {
+  // تاريخ عمل الموقع: "YYYY-MM-DD"، أو "YYYY-MM" لو اليوم مش معروف
+  createdAt: "2026-11-14",
   brand,
   theme,
   projects,

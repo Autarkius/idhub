@@ -1,4 +1,6 @@
 import type { Metadata, Viewport } from "next";
+import { existsSync } from "node:fs";
+import { join } from "node:path";
 import { notFound } from "next/navigation";
 import Header from "@/components/site/Header";
 import Hero from "@/components/site/Hero";
@@ -26,9 +28,25 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
   const { site: slug } = await params;
   const site = sites[slug];
   if (!site) return {};
+  // صورة المعاينة اللي بتظهر لما الرابط يتبعت على واتساب: public/sites/<slug>/og.jpg
+  // لو مش موجودة بيستخدم اللوجو.
+  const ogPath = `/sites/${slug}/og.jpg`;
+  const image = existsSync(join(process.cwd(), "public", ogPath))
+    ? { url: ogPath, width: 1200, height: 630 }
+    : { url: site.brand.logo };
   return {
     title: site.brand.title,
     description: site.brand.description,
+    openGraph: {
+      type: "website",
+      url: `/${slug}`,
+      title: site.brand.title,
+      description: site.brand.description,
+      siteName: site.brand.name,
+      locale: "ar_SA",
+      images: [image],
+    },
+    twitter: { card: "summary_large_image", images: [image.url] },
   };
 }
 

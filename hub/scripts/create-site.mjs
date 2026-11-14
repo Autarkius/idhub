@@ -11,7 +11,7 @@
  *
  * ده بيعمل:
  *   hub/sites/noura/site.ts         — ملف البيانات بالألوان المحسوبة تلقائي
- *   hub/public/sites/noura/brand/   — فولدر اللوجو (حط logo.png فيه)
+ *   hub/public/sites/noura/brand/   — فولدر اللوجو (حط logo.webp فيه)
  *   hub/public/sites/noura/images/  — فولدر الصور
  */
 
@@ -65,7 +65,7 @@ const theme = generateTheme("${accent}");
 
 const brand = {
   name: "${brandName}",
-  logo: "/sites/${slug}/brand/logo.png",
+  logo: "/sites/${slug}/brand/logo.webp",
   logoWidth: 60,
   logoHeight: 60,
   title: "${brandName}",
@@ -76,7 +76,7 @@ const projects: Project[] = [1, 2, 3, 4, 5].map((n) => ({
   slug: \`project-\${n}\`,
   name: \`مشروع \${n}\`,
   category: "تصميم داخلي",
-  image: \`/sites/${slug}/images/projects/project-\${n}.jpg\`,
+  image: \`/sites/${slug}/images/projects/project-\${n}.webp\`,
   href: "#works",
 }));
 
@@ -171,6 +171,8 @@ const nav = [
 ];
 
 export const site: SiteData = {
+  // تاريخ عمل الموقع — بيتحط تلقائي بتاريخ النهاردة
+  createdAt: "${new Date().toISOString().slice(0, 10)}",
   brand,
   theme,
   projects,
@@ -191,14 +193,14 @@ console.log(`
 
   📁 الملفات اللي اتعملت:
      hub/sites/${slug}/site.ts              ← بيانات الموقع (غيّر اللون هنا بس)
-     hub/public/sites/${slug}/brand/        ← حط logo.png هنا
+     hub/public/sites/${slug}/brand/        ← حط logo.webp هنا
      hub/public/sites/${slug}/images/       ← حط صور المشاريع هنا
 
   🎨 اللون الأساسي: ${accent}
      باقي الألوان محسوبة تلقائي من generateTheme()
 
   🚀 الخطوة الجاية:
-     1. حط اللوجو في hub/public/sites/${slug}/brand/logo.png
+     1. حط اللوجو في hub/public/sites/${slug}/brand/logo.webp
      2. عدّل البيانات في hub/sites/${slug}/site.ts
      3. شغّل: npm run dev
      4. افتح: http://localhost:3000/${slug}

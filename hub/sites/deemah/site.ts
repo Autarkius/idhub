@@ -4,7 +4,7 @@ import type { Contact, Project, ServiceItem, SiteData } from "@/lib/site";
 
 const brand = {
   name: "DSSPACE",
-  logo: "/sites/deemah/brand/deemah.png",
+  logo: "/sites/deemah/brand/deemah.webp",
   logoWidth: 60,
   logoHeight: 60,
   title: "ديمة الحسن | DSSPACE تصميم داخلي",
@@ -27,7 +27,7 @@ const projects: Project[] = [1, 2, 3, 4, 5].map((n) => ({
   slug: `project-${n}`,
   name: `مشروع ${n}`,
   category: "تصميم داخلي",
-  image: `/sites/deemah/images/projects/project-${n}.jpg`,
+  image: `/sites/deemah/images/projects/project-${n}.webp`,
   href: "#works",
 }));
 
@@ -73,7 +73,7 @@ const identity = {
     "اهتمام بالتفاصيل في كل مرحلة.",
     "تواصل مباشر وسهل عبر واتساب.",
   ],
-  image: "/sites/deemah/images/identity.jpg",
+  image: "/sites/deemah/images/identity.webp",
   imageLabel: "DSSPACE",
 };
 
@@ -122,6 +122,8 @@ const nav = [
 ];
 
 export const site: SiteData = {
+  // تاريخ عمل الموقع: "YYYY-MM-DD"، أو "YYYY-MM" لو اليوم مش معروف
+  createdAt: "2026-11",
   brand,
   theme,
   projects,

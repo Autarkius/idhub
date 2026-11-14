@@ -5,7 +5,7 @@ import type { Contact, Project, ServiceItem, SiteData } from "@/lib/site";
 
 const brand = {
   name: "Ashwaq Design",
-  logo: "/sites/ashwaq/brand/logo.png",
+  logo: "/sites/ashwaq/brand/logo.webp",
   logoWidth: 60,
   logoHeight: 60,
   title: "أشواق | تصميم داخلي",
@@ -28,28 +28,28 @@ const projects: Project[] = [
     slug: "classic-majlis",
     name: "المجلس الكلاسيكي",
     category: "تصميم داخلي / ضيافة",
-    image: "/sites/ashwaq/images/projects/majlis.jpg",
+    image: "/sites/ashwaq/images/projects/majlis.webp",
     href: "#works",
   },
   {
     slug: "modern-living",
     name: "صالة معاصرة",
     category: "تصميم داخلي / معيشة",
-    image: "/sites/ashwaq/images/projects/living-room.jpg",
+    image: "/sites/ashwaq/images/projects/living-room.webp",
     href: "#works",
   },
   {
     slug: "open-kitchen",
     name: "المطبخ المفتوح",
     category: "تصميم داخلي / مطبخ",
-    image: "/sites/ashwaq/images/projects/kitchen.jpg",
+    image: "/sites/ashwaq/images/projects/kitchen.webp",
     href: "#works",
   },
   {
     slug: "living-details",
     name: "تفاصيل المعيشة",
     category: "أثاث وإضاءة",
-    image: "/sites/ashwaq/images/projects/details.jpg",
+    image: "/sites/ashwaq/images/projects/details.webp",
     href: "#works",
   },
 ];
@@ -96,7 +96,7 @@ const identity = {
     "لمسات دافئة وخامات مختارة بعناية.",
     "متابعة من الفكرة الأولى حتى التسليم.",
   ],
-  image: "/sites/ashwaq/images/identity.jpg",
+  image: "/sites/ashwaq/images/identity.webp",
   imageLabel: "A.T.J DESIGN",
 };
 
@@ -145,6 +145,8 @@ const nav = [
 ];
 
 export const site: SiteData = {
+  // تاريخ عمل الموقع: "YYYY-MM-DD"، أو "YYYY-MM" لو اليوم مش معروف
+  createdAt: "2026-11",
   brand,
   theme,
   projects,

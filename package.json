@@ -2,8 +2,7 @@
   "name": "corvus-sites",
   "private": true,
   "workspaces": [
-    "hub",
-    "*-site"
+    "hub"
   ],
   "scripts": {
     "dev": "node dev.mjs",

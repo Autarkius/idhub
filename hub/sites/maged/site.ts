@@ -5,7 +5,7 @@ import type { Contact, Project, ServiceItem, SiteData } from "@/lib/site";
 
 const brand = {
   name: "Majedan",
-  logo: "/sites/maged/brand/logo.png",
+  logo: "/sites/maged/brand/logo.webp",
   logoWidth: 60,
   logoHeight: 60,
   title: "ماجدان | تصميم داخلي وخارجي وتأثيث",
@@ -28,28 +28,28 @@ const projects: Project[] = [
     slug: "living-room",
     name: "صالة المعيشة",
     category: "تصميم داخلي / معيشة",
-    image: "/sites/maged/images/projects/living-room.jpg",
+    image: "/sites/maged/images/projects/living-room.webp",
     href: "#works",
   },
   {
     slug: "library-corner",
     name: "ركن المكتبة",
     category: "تصميم داخلي / تفاصيل",
-    image: "/sites/maged/images/projects/living-detail.jpg",
+    image: "/sites/maged/images/projects/living-detail.webp",
     href: "#works",
   },
   {
     slug: "marble-kitchen",
     name: "المطبخ الرخامي",
     category: "تصميم داخلي / مطبخ",
-    image: "/sites/maged/images/projects/kitchen.jpg",
+    image: "/sites/maged/images/projects/kitchen.webp",
     href: "#works",
   },
   {
     slug: "dining-area",
     name: "منطقة الطعام",
     category: "تصميم داخلي / طعام",
-    image: "/sites/maged/images/projects/dining.jpg",
+    image: "/sites/maged/images/projects/dining.webp",
     href: "#works",
   },
 ];
@@ -96,7 +96,7 @@ const identity = {
     "تأثيث وتنسيق يكمل تفاصيل المساحة.",
     "متابعة من الفكرة الأولى حتى التسليم.",
   ],
-  image: "/sites/maged/images/identity.jpg",
+  image: "/sites/maged/images/identity.webp",
   imageLabel: "MAJEDAN",
 };
 
@@ -144,6 +144,8 @@ const nav = [
 ];
 
 export const site: SiteData = {
+  // تاريخ عمل الموقع: "YYYY-MM-DD"، أو "YYYY-MM" لو اليوم مش معروف
+  createdAt: "2026-11",
   startDark: true,
   brand,
   theme,

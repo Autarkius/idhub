@@ -7,7 +7,7 @@ const theme = generateTheme("#c49f75");
 
 const brand = {
   name: "Sara Alhaidari",
-  logo: "/sites/sara/brand/logo.png",
+  logo: "/sites/sara/brand/logo.webp",
   logoWidth: 60,
   logoHeight: 60,
   title: "سارا الحيدري | تصميم داخلي",
@@ -20,35 +20,35 @@ const projects: Project[] = [
     slug: "luxury-living-room",
     name: "صالة المعيشة الفاخرة",
     category: "تصميم داخلي / معيشة",
-    image: "/sites/sara/images/projects/living-room.jpg",
+    image: "/sites/sara/images/projects/living-room.webp",
     href: "#works",
   },
   {
     slug: "dining-concept",
     name: "غرفة الطعام والضيافة",
     category: "تصميم داخلي / ضيافة ومودبورد",
-    image: "/sites/sara/images/projects/dining-concept.jpg",
+    image: "/sites/sara/images/projects/dining-concept.webp",
     href: "#works",
   },
   {
     slug: "home-office-study",
     name: "مكتب ومساحة دراسة",
     category: "تصميم وتنفيذ مخصص / عمل",
-    image: "/sites/sara/images/projects/home-office.jpg",
+    image: "/sites/sara/images/projects/home-office.webp",
     href: "#works",
   },
   {
     slug: "furniture-styling",
     name: "تفاصيل وتنسيق الأثاث",
     category: "تأثيث واختيار خامات / تفاصيل",
-    image: "/sites/sara/images/projects/living-details.jpg",
+    image: "/sites/sara/images/projects/living-details.webp",
     href: "#works",
   },
   {
     slug: "master-bedroom",
     name: "جناح النوم الرئيسي",
     category: "تصميم داخلي / نوم",
-    image: "/sites/sara/images/projects/bedroom.jpg",
+    image: "/sites/sara/images/projects/bedroom.webp",
     href: "#works",
   },
 ];
@@ -95,7 +95,7 @@ const identity = {
     "تصاميم فريدة تواكب أحدث معايير التصميم العالمي.",
     "حلول عملية ومبتكرة تناسب أسلوب حياتك وميزانيتك.",
   ],
-  image: "/sites/sara/images/identity.jpg",
+  image: "/sites/sara/images/identity.webp",
   imageLabel: "SARA ALHAIDARI",
 };
 
@@ -144,6 +144,9 @@ const nav = [
 ];
 
 export const site: SiteData = {
+  // تاريخ عمل الموقع: "YYYY-MM-DD"، أو "YYYY-MM" لو اليوم مش معروف
+  greetName: "م. سارا",
+  createdAt: "2026-11",
   brand,
   theme,
   projects,

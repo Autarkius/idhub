@@ -5,7 +5,7 @@ import type { Contact, Project, ServiceItem, SiteData } from "@/lib/site";
 
 const brand = {
   name: "Faten Dalah",
-  logo: "/sites/faten/brand/logo.png",
+  logo: "/sites/faten/brand/logo.webp",
   logoWidth: 60,
   logoHeight: 60,
   title: "فاتن دله | استوديو تصميم داخلي في الرياض",
@@ -28,35 +28,35 @@ const projects: Project[] = [
     slug: "green-majlis",
     name: "مجلس الضيافة",
     category: "تصميم داخلي / ضيافة",
-    image: "/sites/faten/images/projects/green-majlis.jpg",
+    image: "/sites/faten/images/projects/green-majlis.webp",
     href: "#works",
   },
   {
     slug: "modern-living",
     name: "صالة معيشة عصرية",
     category: "تصميم داخلي / معيشة",
-    image: "/sites/faten/images/projects/modern-living.jpg",
+    image: "/sites/faten/images/projects/modern-living.webp",
     href: "#works",
   },
   {
     slug: "main-entrance",
     name: "المدخل الرئيسي",
     category: "تصميم داخلي / مدخل",
-    image: "/sites/faten/images/projects/entry.jpg",
+    image: "/sites/faten/images/projects/entry.webp",
     href: "#works",
   },
   {
     slug: "home-library",
     name: "المكتبة المنزلية",
     category: "تصميم داخلي / مكتبة",
-    image: "/sites/faten/images/projects/library.jpg",
+    image: "/sites/faten/images/projects/library.webp",
     href: "#works",
   },
   {
     slug: "velvet-chair",
     name: "تفاصيل فاخرة",
     category: "تأثيث / تفاصيل",
-    image: "/sites/faten/images/projects/velvet-chair.jpg",
+    image: "/sites/faten/images/projects/velvet-chair.webp",
     href: "#works",
   },
 ];
@@ -103,7 +103,7 @@ const identity = {
     "تصميم ومخططات تناسب طريقة حياتك.",
     "تأثيث وتشطيب ومتابعة حتى التسليم.",
   ],
-  image: "/sites/faten/images/identity.jpg",
+  image: "/sites/faten/images/identity.webp",
   imageLabel: "FATEN DALAH",
 };
 
@@ -152,6 +152,8 @@ const nav = [
 ];
 
 export const site: SiteData = {
+  // تاريخ عمل الموقع: "YYYY-MM-DD"، أو "YYYY-MM" لو اليوم مش معروف
+  createdAt: "2026-11",
   brand,
   theme,
   projects,

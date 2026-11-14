@@ -5,7 +5,7 @@ import type { Contact, Project, ServiceItem, SiteData } from "@/lib/site";
 
 const brand = {
   name: "Ghaida Mohammed",
-  logo: "/sites/ghaidaa/brand/logo.png",
+  logo: "/sites/ghaidaa/brand/logo.webp",
   logoWidth: 60,
   logoHeight: 60,
   title: "غيّداء محمد | تصميم داخلي وتنفيذ وإشراف",
@@ -28,35 +28,35 @@ const projects: Project[] = [
     slug: "shawarma-hall",
     name: "صالة المطعم",
     category: "تصميم تجاري / مطاعم",
-    image: "/sites/ghaidaa/images/projects/hall.jpg",
+    image: "/sites/ghaidaa/images/projects/hall.webp",
     href: "#works",
   },
   {
     slug: "entrance",
     name: "واجهة المطعم",
     category: "تصميم تجاري / واجهات",
-    image: "/sites/ghaidaa/images/projects/entrance.jpg",
+    image: "/sites/ghaidaa/images/projects/entrance.webp",
     href: "#works",
   },
   {
     slug: "order-counter",
     name: "منطقة الطلبات",
     category: "تصميم تجاري / كاونتر",
-    image: "/sites/ghaidaa/images/projects/counter.jpg",
+    image: "/sites/ghaidaa/images/projects/counter.webp",
     href: "#works",
   },
   {
     slug: "menu-wall",
     name: "جدار المنيو",
     category: "تصميم تجاري / تفاصيل",
-    image: "/sites/ghaidaa/images/projects/menu-wall.jpg",
+    image: "/sites/ghaidaa/images/projects/menu-wall.webp",
     href: "#works",
   },
   {
     slug: "seating-corner",
     name: "ركن الجلسات",
     category: "تصميم تجاري / جلسات",
-    image: "/sites/ghaidaa/images/projects/seating.jpg",
+    image: "/sites/ghaidaa/images/projects/seating.webp",
     href: "#works",
   },
 ];
@@ -103,7 +103,7 @@ const identity = {
     "تصميم وتنفيذ وإشراف متكامل.",
     "اهتمام بالتفاصيل من الفكرة حتى التسليم.",
   ],
-  image: "/sites/ghaidaa/images/identity.jpg",
+  image: "/sites/ghaidaa/images/identity.webp",
   imageLabel: "GHAIDA MOHAMMED",
 };
 
@@ -152,6 +152,8 @@ const nav = [
 ];
 
 export const site: SiteData = {
+  // تاريخ عمل الموقع: "YYYY-MM-DD"، أو "YYYY-MM" لو اليوم مش معروف
+  createdAt: "2026-11",
   brand,
   theme,
   projects,

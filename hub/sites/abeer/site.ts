@@ -7,9 +7,9 @@ const theme = generateTheme("#9c6b78");
 
 const brand = {
   name: "Abeer Ali Alsaree",
-  logo: "/sites/abeer/brand/logo.png",
-  logoWidth: 70,
-  logoHeight: 54,
+  logo: "/sites/abeer/brand/logo.webp",
+  logoWidth: 60,
+  logoHeight: 60,
   title: "م. عبير علي | استوديو تصميم داخلي",
   description:
     "م. عبير علي، مهندسة ديكور واستوديو تصميم داخلي. نصمم مساحات تجمع بين الأناقة والراحة، مع تفصيل أثاث حسب الطلب.",
@@ -20,35 +20,35 @@ const projects: Project[] = [
     slug: "meeting-room",
     name: "قاعة الاجتماعات",
     category: "تصميم داخلي / مكاتب",
-    image: "/sites/abeer/images/projects/meeting-room.jpg",
+    image: "/sites/abeer/images/projects/meeting-room.webp",
     href: "#works",
   },
   {
     slug: "executive-office",
     name: "المكتب التنفيذي",
     category: "تصميم داخلي / مكاتب",
-    image: "/sites/abeer/images/projects/executive-office.jpg",
+    image: "/sites/abeer/images/projects/executive-office.webp",
     href: "#works",
   },
   {
     slug: "reception-lounge",
     name: "جلسة الاستقبال",
     category: "تصميم داخلي / ضيافة",
-    image: "/sites/abeer/images/projects/reception-lounge.jpg",
+    image: "/sites/abeer/images/projects/reception-lounge.webp",
     href: "#works",
   },
   {
     slug: "meeting-table",
     name: "تفاصيل طاولة الاجتماعات",
     category: "تأثيث واختيار خامات / تفاصيل",
-    image: "/sites/abeer/images/projects/meeting-table.jpg",
+    image: "/sites/abeer/images/projects/meeting-table.webp",
     href: "#works",
   },
   {
     slug: "office-moodboard",
     name: "مودبورد المكتب",
     category: "تصميم وتنسيق / مودبورد",
-    image: "/sites/abeer/images/projects/office-moodboard.jpg",
+    image: "/sites/abeer/images/projects/office-moodboard.webp",
     href: "#works",
   },
 ];
@@ -95,7 +95,7 @@ const identity = {
     "تصاميم فريدة تواكب أحدث معايير التصميم العالمي.",
     "حلول عملية ومبتكرة تناسب أسلوب حياتك وميزانيتك.",
   ],
-  image: "/sites/abeer/images/identity.jpg",
+  image: "/sites/abeer/images/identity.webp",
   imageLabel: "ABEER DESIGN",
 };
 
@@ -144,6 +144,9 @@ const nav = [
 ];
 
 export const site: SiteData = {
+  // تاريخ عمل الموقع: "YYYY-MM-DD"، أو "YYYY-MM" لو اليوم مش معروف
+  greetName: "م. عبير",
+  createdAt: "2026-11-14",
   brand,
   theme,
   projects,
