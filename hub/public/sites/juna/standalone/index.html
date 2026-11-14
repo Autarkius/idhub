@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>جنى ديزاين | م. جنى خان — هندسة وتصميم داخلي</title>
+  <meta name="description" content="موقع جنى ديزاين (@juna_khan). مهندسة ومصممة داخلية في جدة، تصميم داخلي فاخر للفلل والقصور، تنسيق إنارة وثريات كريستالية، واستشارات هندسية وديكورية.">
+  <meta name="theme-color" content="#0e1520">
+
+  <!-- Open Graph / WhatsApp -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="جنى ديزاين | م. جنى خان — هندسة وتصميم داخلي">
+  <meta property="og:description" content="مهندسة ومصممة داخلية يدفعني الإبداع لأشارككم إبداعي وأفكاري بكل حب. استشارات وتصاميم فاخرة في جدة.">
+  <meta property="og:image" content="assets/images/projects/royal-majlis.webp">
+  <meta property="og:locale" content="ar_SA">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Header / Navigation -->
+  <header class="site-header" id="header">
+    <div class="container header-inner">
+      <a href="#top" class="brand-logo" aria-label="جنى ديزاين">
+        <img src="assets/brand/logo.webp" alt="شعار جنى ديزاين" width="56" height="56">
+        <div class="brand-text">
+          <span class="brand-name">جنى ديزاين</span>
+          <span class="brand-role">م. جنى خان</span>
+        </div>
+      </a>
+
+      <nav class="desktop-nav" aria-label="القائمة الرئيسية">
+        <a href="#about">من نحن</a>
+        <a href="#video-tour">جولة سينمائية</a>
+        <a href="#works">مشاريعنا</a>
+        <a href="#services">خدماتنا</a>
+        <a href="#philosophy">فلسفتنا</a>
+        <a href="#contact" class="btn btn-outline-nav">تواصل معنا</a>
+      </nav>
+
+      <button type="button" class="burger-btn" id="burgerBtn" aria-label="فتح القائمة" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Menu -->
+  <div class="mobile-drawer" id="mobileDrawer" aria-hidden="true">
+    <div class="drawer-header">
+      <span class="drawer-title">القائمة</span>
+      <button type="button" class="close-btn" id="closeDrawerBtn" aria-label="إغلاق القائمة">&times;</button>
+    </div>
+    <nav class="drawer-nav">
+      <a href="#about" class="drawer-link"><span>01</span> من نحن</a>
+      <a href="#video-tour" class="drawer-link"><span>02</span> جولة سينمائية</a>
+      <a href="#works" class="drawer-link"><span>03</span> مشاريعنا</a>
+      <a href="#services" class="drawer-link"><span>04</span> خدماتنا</a>
+      <a href="#philosophy" class="drawer-link"><span>05</span> فلسفتنا</a>
+      <a href="#contact" class="drawer-link"><span>06</span> تواصل معنا</a>
+    </nav>
+    <div class="drawer-footer">
+      <a href="https://wa.me/966580527500" target="_blank" rel="noopener" class="btn btn-primary btn-block">
+        واتساب مباشرة 💬
+      </a>
+    </div>
+  </div>
+
+  <main id="top">
+    <!-- Hero Section -->
+    <section class="hero-section">
+      <div class="hero-video-wrap">
+        <video id="heroVideo" autoplay muted loop playsinline poster="assets/images/projects/dining-tour.webp">
+          <source src="assets/video/tour.mp4" type="video/mp4">
+          متصفحك لا يدعم تشغيل الفيديو.
+        </video>
+        <div class="video-overlay"></div>
+      </div>
+
+      <!-- Video Control Button -->
+      <button type="button" class="sound-toggle-btn" id="soundToggle" aria-label="تشغيل الصوت">
+        <span class="sound-icon" id="soundIcon">🔇</span>
+        <span class="sound-text" id="soundText">الصوت مكتوم</span>
+      </button>
+
+      <div class="container hero-content">
+        <div class="badge-pill">
+          <span class="badge-dot"></span>
+          <span>مهندسة ومصممة داخلية معتمدة — جدة</span>
+        </div>
+        <h1 class="hero-title">
+          حيث يتحول الفراغ إلى <span class="highlight">تحفة فنية</span> تنبض بالحياة
+        </h1>
+        <p class="hero-desc">
+          يدفعني الشغف لأشارككم إبداعي وأفكاري بكل حب 🔮✨ تصاميم داخلية ومعمارية فاخرة تُصمم بعناية فائقة لتجمع بين دفء الطراز المعاصر ونقاء التفاصيل.
+        </p>
+
+        <div class="hero-actions">
+          <a href="https://wa.me/966580527500" target="_blank" rel="noopener" class="btn btn-primary">
+            <span>استشارة وتصاميم عبر واتساب</span>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7"/><path d="M7 7h10v10"/></svg>
+          </a>
+          <a href="#video-tour" class="btn btn-glass">
+            <span>شاهد جولة الفيديو</span>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+          </a>
+        </div>
+
+        <div class="hero-stats">
+          <div class="stat-item">
+            <span class="stat-number">5.6K+</span>
+            <span class="stat-label">متابع على سناب شات</span>
+          </div>
+          <div class="stat-sep"></div>
+          <div class="stat-item">
+            <span class="stat-number">100%</span>
+            <span class="stat-label">تصاميم مخصصة بالحب</span>
+          </div>
+          <div class="stat-sep"></div>
+          <div class="stat-item">
+            <span class="stat-number">جدة</span>
+            <span class="stat-label">وكافة مدن المملكة</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section" id="about">
+      <div class="container">
+        <div class="section-badge">من نحن</div>
+        <div class="about-grid">
+          <div class="about-text-col">
+            <h2 class="section-title">
+              نصنع بيئات استثنائية تحاكي <span class="highlight">أسلوب حياتك</span>
+            </h2>
+            <p class="lead-p">
+              أهلاً بكم في جنى ديزاين (@juna_khan). انطلاقاً من شغف عميق بالعمارة وجماليات الفراغ، نسعى دائماً إلى إعادة تعريف المساحات الداخلية من خلال موازنة دقيقة بين الإضاءة الهندسية والألوان المريحة وتناسق الأثاث.
+            </p>
+            <p class="body-p">
+              سواء كنت تبحث عن استشارة ديكورية لتجديد منزلك، أو تصميماً متكاملاً لقصرك أو فيلتك الخاصة، نتولى جميع مراحل الدراسة والتصميم ثلاثي الأبعاد واختيار الخامات وصولاً إلى إشراف التنفيذ بأعلى المعايير.
+            </p>
+
+            <div class="about-features">
+              <div class="feat-box">
+                <div class="feat-icon">✨</div>
+                <div>
+                  <h4>رؤية معاصرة</h4>
+                  <p>مواكبة أحدث صيحات الديكور العالمية بروح شرقية أصيلة.</p>
+                </div>
+              </div>
+              <div class="feat-box">
+                <div class="feat-icon">📐</div>
+                <div>
+                  <h4>تخطيط هندسي ذكي</h4>
+                  <p>استثمار مثالي لكل متر مع مراعاة انسيابية الحركة وراحة الأسرة.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-image-col">
+            <div class="image-card-wrap">
+              <img src="assets/images/projects/royal-majlis.webp" alt="مجلس الضيافة الملكي - جنى ديزاين" class="rounded-img shadow-lg" loading="lazy">
+              <div class="image-caption-tag">
+                <strong>مجلس الضيافة الملكي</strong>
+                <span>Jeddah Luxury Project</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Video Tour Showcase -->
+    <section class="video-showcase-section" id="video-tour">
+      <div class="container">
+        <div class="section-header text-center">
+          <div class="section-badge center">فيديو حصري</div>
+          <h2 class="section-title center">
+            جولة سينمائية في <span class="highlight">غرفة الطعام الملكية</span>
+          </h2>
+          <p class="section-subtitle center">
+            عيشوا تجربة حية لتناسق الثريا الكريستالية المطلية بالذهب، ومائدة الرخام، واللوحات الفنية التشكيلية
+          </p>
+        </div>
+
+        <div class="video-player-container">
+          <div class="video-player-card">
+            <video id="featuredVideo" controls playsinline poster="assets/images/projects/dining-tour.webp">
+              <source src="assets/video/tour.mp4" type="video/mp4">
+              متصفحك لا يدعم تشغيل الفيديو.
+            </video>
+            <div class="player-info-bar">
+              <div class="track-info">
+                <span class="track-tag">🔴 فيديو حي 4K</span>
+                <span class="track-name">مشروع تأثيث وهندسة إضاءة — م. جنى خان</span>
+              </div>
+              <a href="https://wa.me/966580527500" target="_blank" rel="noopener" class="btn btn-sm btn-primary">
+                اطلب تصميماً مماثلاً
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Works Gallery Section -->
+    <section class="works-section" id="works">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-badge">معرض الأعمال</div>
+          <h2 class="section-title">
+            مشاريع مختارة تعكس <span class="highlight">بصمتنا الخاصة</span>
+          </h2>
+          <p class="section-subtitle">
+            نماذج من تصاميمنا الفاخرة للفلل والمجالس وغرف المعيشة وصالات الطعام
+          </p>
+        </div>
+
+        <div class="gallery-grid">
+          <!-- Project 1 (Video Feature) -->
+          <article class="project-card large-card">
+            <div class="card-media">
+              <video autoplay muted loop playsinline poster="assets/images/projects/dining-tour.webp">
+                <source src="assets/video/tour.mp4" type="video/mp4">
+              </video>
+              <span class="media-type-badge">فيديو حي 🎬</span>
+            </div>
+            <div class="card-body">
+              <span class="card-cat">تصميم وتنفيذ كامل / صالة طعام</span>
+              <h3 class="card-title">غرفة الطعام الملكية والثريا الكريستالية</h3>
+              <p class="card-desc">
+                توزيع مدروس للإنارة مع ثريا كلاسيكية عصرية متدلية فوق مائدة رخامية مجهزة بلمسات ذهبية متناسقة.
+              </p>
+              <a href="https://wa.me/966580527500?text=مرحبا%20مهندسة%20جنى،%20أرغب%20بالاستفسار%20عن%20تصميم%20مشابه%20لغرفة%20الطعام" target="_blank" rel="noopener" class="card-link">
+                استفسر عن هذا المشروع ←
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="project-card">
+            <div class="card-media">
+              <img src="assets/images/projects/royal-majlis.webp" alt="مجلس الضيافة الملكي" loading="lazy">
+              <span class="media-type-badge">تصميم داخلي</span>
+            </div>
+            <div class="card-body">
+              <span class="card-cat">مجالس وصالونات ضيافة</span>
+              <h3 class="card-title">مجلس الضيافة الملكي بنقوش الشينوازري</h3>
+              <p class="card-desc">
+                مزيج ملكي من الأزرق الداكن الساحر، الجداريات الحريرية المرسومة يدوياً، والسجاد المخصص.
+              </p>
+              <a href="https://wa.me/966580527500?text=مرحبا%20مهندسة%20جنى،%20أرغب%20بالاستفسار%20عن%20مجلس%20الضيافة%20الملكي" target="_blank" rel="noopener" class="card-link">
+                استفسر عن هذا المشروع ←
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="project-card">
+            <div class="card-media">
+              <img src="assets/images/projects/contemporary-lounge.webp" alt="صالون المعيشة العصري" loading="lazy">
+              <span class="media-type-badge">تصميم معاصر</span>
+            </div>
+            <div class="card-body">
+              <span class="card-cat">معيشة عائلية وصالونات</span>
+              <h3 class="card-title">صالون المعيشة العصري والإنارة الزجاجية</h3>
+              <p class="card-desc">
+                خطوط انسيابية، طاولات عضوية، وثريات قطرات المطر الزجاجية الملونة تعطي شعوراً بالاتساع والهدوء.
+              </p>
+              <a href="https://wa.me/966580527500?text=مرحبا%20مهندسة%20جنى،%20أرغب%20بالاستفسار%20عن%20صالون%20المعيشة%20العصري" target="_blank" rel="noopener" class="card-link">
+                استفسر عن هذا المشروع ←
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 4 -->
+          <article class="project-card">
+            <div class="card-media">
+              <img src="assets/images/projects/dining-details.webp" alt="تفاصيل مائدة الطعام" loading="lazy">
+              <span class="media-type-badge">تنسيق طاولات</span>
+            </div>
+            <div class="card-body">
+              <span class="card-cat">تأثيث وتنسيق طاولات</span>
+              <h3 class="card-title">تفاصيل مائدة الطعام واللوحات الفنية</h3>
+              <p class="card-desc">
+                اختيار الأواني الفاخرة، والزهور الطبيعية، والإضاءة الجدارية الدافئة لتحقيق تجربة طعام استثنائية.
+              </p>
+              <a href="https://wa.me/966580527500" target="_blank" rel="noopener" class="card-link">
+                استفسر عن هذا المشروع ←
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 5 -->
+          <article class="project-card">
+            <div class="card-media">
+              <img src="assets/images/projects/crystal-chandelier.webp" alt="الثريا الكريستالية" loading="lazy">
+              <span class="media-type-badge">هندسة إضاءة</span>
+            </div>
+            <div class="card-body">
+              <span class="card-cat">توزيع إنارة وثريات</span>
+              <h3 class="card-title">الثريا الكريستالية الكلاسيكية المذهبة</h3>
+              <p class="card-desc">
+                دمج المعدن المصقول والكريستال النقي لإنتاج إضاءة هادئة تبرز جمال المساحة والأسقف المرتفعة.
+              </p>
+              <a href="https://wa.me/966580527500" target="_blank" rel="noopener" class="card-link">
+                استفسر عن هذا المشروع ←
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services-section" id="services">
+      <div class="container">
+        <div class="section-header text-center">
+          <div class="section-badge center">خدماتنا</div>
+          <h2 class="section-title center">
+            حلول هندسية متكاملة <span class="highlight">من الفكرة إلى التسليم</span>
+          </h2>
+          <p class="section-subtitle center">
+            نقدم لكم حزمة شاملة من خدمات التصميم الداخلي والمعماري والاستشارات الاحترافية
+          </p>
+        </div>
+
+        <div class="services-grid">
+          <div class="service-card">
+            <div class="serv-icon-circle">🛋️</div>
+            <h3 class="serv-title">التصميم الداخلي والسكني</h3>
+            <p class="serv-desc">
+              مخططات معمارية وتصاميم ثلاثية الأبعاد (3D) للمنازل والفلل والمجالس، تشمل توزيع الأثاث، واختيار الألوان، وخامات الجدران والأرضيات.
+            </p>
+            <ul class="serv-list">
+              <li>مخططات تنفيذية معتمدة</li>
+              <li>اختيار دقيق للمواد والأقمشة</li>
+              <li>تناغم كامل في الطراز المعماري</li>
+            </ul>
+          </div>
+
+          <div class="service-card featured">
+            <div class="serv-badge">الأكثر طلباً</div>
+            <div class="serv-icon-circle">💡</div>
+            <h3 class="serv-title">هندسة وتنسيق الإنارة</h3>
+            <p class="serv-desc">
+              توزيع احترافي للإضاءة المباشرة والمخفية، واختيار أحدث الثريات الكريستالية المعاصرة التي تمنح الفراغ عمقاً وفخامة استثنائية.
+            </p>
+            <ul class="serv-list">
+              <li>حساب شدة ودفء الإضاءة (Kelvin)</li>
+              <li>ثريات مخصصة للأسقف العالية</li>
+              <li>إنارة ديكورية وجدارية مدروسة</li>
+            </ul>
+          </div>
+
+          <div class="service-card">
+            <div class="serv-icon-circle">📐</div>
+            <h3 class="serv-title">الاستشارات الهندسية والتنفيذ</h3>
+            <p class="serv-desc">
+              استشارات متخصصة لأصحاب المشاريع السكنية والتجارية في جدة وكافة أنحاء المملكة، ومتابعة مراحل التنفيذ لضمان مطابقة الواقع للتصميم.
+            </p>
+            <ul class="serv-list">
+              <li>استشارات هاتفية وحضورية</li>
+              <li>مراجعة وتعديل المخططات القائمة</li>
+              <li>إشراف على اختيار الأثاث والتشطيبات</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Philosophy & Identity Section -->
+    <section class="philosophy-section" id="philosophy">
+      <div class="container">
+        <div class="philo-card">
+          <div class="philo-content">
+            <span class="section-badge">فلسفتنا في العمل</span>
+            <h2 class="philo-title">
+              "الإبداع يدفعني لأشارككم شغفي وأفكاري بكل حب"
+            </h2>
+            <p class="philo-desc">
+              نحن في جنى ديزاين لا نكتفي بتصميم جدران وأثاث، بل نصنع تجارب شعورية يومية تجعل كل لحظة تقضيها في منزلك ممتعة ودافئة. نعتني بأدق تفاصيل الخامات وانعكاسات الضوء لتولد مساحة تشبهك في كل زاوية.
+            </p>
+            <div class="philo-points">
+              <div class="point-item">
+                <span class="point-check">✓</span>
+                <span>تصاميم تلبي تطلعاتك وتناسب ميزانيتك</span>
+              </div>
+              <div class="point-item">
+                <span class="point-check">✓</span>
+                <span>تواصل دائم ومرونة عالية في التعديل</span>
+              </div>
+              <div class="point-item">
+                <span class="point-check">✓</span>
+                <span>تسليم ملفات ومخططات جاهزة للتنفيذ المباشر</span>
+              </div>
+            </div>
+            <div class="philo-cta">
+              <a href="https://wa.me/966580527500" target="_blank" rel="noopener" class="btn btn-primary">
+                ابدأ رحلة تصميمك الآن
+              </a>
+            </div>
+          </div>
+          <div class="philo-media">
+            <img src="assets/images/projects/contemporary-lounge.webp" alt="فلسفة جنى ديزاين" loading="lazy">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials-section">
+      <div class="container">
+        <div class="section-header text-center">
+          <div class="section-badge center">آراء العملاء</div>
+          <h2 class="section-title center">ثقة نعتز بها</h2>
+        </div>
+
+        <div class="testimonials-grid">
+          <div class="testi-card">
+            <div class="stars">★★★★★</div>
+            <p class="quote">
+              "المهندسة جنى فنانة حقيقية. نقلت أفكاري اللي كنت أحلم فيها لمخطط واقعي وفيديو واضح جداً. مجلس الضيافة صار فخر قدام ضيوفنا."
+            </p>
+            <div class="client-meta">
+              <strong>سارة القحطاني</strong>
+              <span>فيلا سكنية — جدة</span>
+            </div>
+          </div>
+
+          <div class="testi-card">
+            <div class="stars">★★★★★</div>
+            <p class="quote">
+              "أكثر شيء عجبني هو توزيع الإضاءة والثريات. ذوق عالي وتوفير في الميزانية من غير ما نقلل من فخامة التشطيب. شكراً مهندسة جنى!"
+            </p>
+            <div class="client-meta">
+              <strong>عبدالله الحربي</strong>
+              <span>مشروع شقة دوبلكس — مكة المكرمة</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact & CTA Banner -->
+    <section class="contact-section" id="contact">
+      <div class="container">
+        <div class="contact-card">
+          <div class="contact-inner">
+            <span class="badge-pill light">جاهزون لبدء مشروعك؟</span>
+            <h2 class="contact-title">تواصلوا مع المهندسة جنى خان اليوم</h2>
+            <p class="contact-desc">
+              شاركونا مخططاتكم أو أفكاركم المبدئية، ودعونا نحولها إلى واقع فاخر يُصنع بكل حب.
+            </p>
+            
+            <div class="contact-methods">
+              <a href="https://wa.me/966580527500" target="_blank" rel="noopener" class="contact-btn whatsapp">
+                <span class="btn-icon">💬</span>
+                <div>
+                  <small>محادثة فورية</small>
+                  <strong>واتساب: 0580527500</strong>
+                </div>
+              </a>
+              <a href="tel:+966580527500" class="contact-btn phone">
+                <span class="btn-icon">📞</span>
+                <div>
+                  <small>اتصال مباشر</small>
+                  <strong>+966 58 052 7500</strong>
+                </div>
+              </a>
+              <a href="https://www.snapchat.com/add/juna_khan" target="_blank" rel="noopener" class="contact-btn snapchat">
+                <span class="btn-icon">👻</span>
+                <div>
+                  <small>سناب شات (5.6K)</small>
+                  <strong>@juna_khan</strong>
+                </div>
+              </a>
+            </div>
+
+            <div class="location-badge">
+              <span>📍 جدة، المملكة العربية السعودية</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <img src="assets/brand/logo.webp" alt="جنى ديزاين" width="48" height="48">
+        <div>
+          <h3>جنى ديزاين — Juna Design</h3>
+          <p>مهندسة ومصممة داخلية — جدة، المملكة العربية السعودية</p>
+        </div>
+      </div>
+      <div class="footer-links">
+        <a href="#about">من نحن</a>
+        <a href="#video-tour">الفيديو</a>
+        <a href="#works">المشاريع</a>
+        <a href="#services">الخدمات</a>
+        <a href="https://wa.me/966580527500" target="_blank" rel="noopener">واتساب</a>
+      </div>
+      <div class="footer-copy">
+        <p>© 2026 جنى ديزاين (Juna Khan). جميع الحقوق محفوظة.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp Quick Button -->
+  <a href="https://wa.me/966580527500" target="_blank" rel="noopener" class="floating-wa" aria-label="تواصل عبر واتساب">
+    <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.007c.106.005.249-.04.39.298.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.201.662.591 1.221.774 1.394.86.173.086.274.072.376-.043.101-.116.433-.506.549-.68.116-.173.231-.145.39-.086s1.011.477 1.184.564.289.13.332.202c.043.073.043.419-.101.824z"/>
+    </svg>
+    <span class="floating-wa-label">تواصل معنا</span>
+  </a>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

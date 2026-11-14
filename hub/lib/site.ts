@@ -6,11 +6,17 @@ export { generateTheme } from "./generate-theme";
 // شكل بيانات أي موقع عميل. أي موقع جديد بيتكتب بنفس الشكل ده.
 export type SiteTheme = {
   accent: string;
+  // اختياري: درجة أعمق للون الأساسي في الوضع الفاتح لو الأزرق المضيء بيبهت على العاجي.
+  accentLight?: string;
   accentSoft: string;
+  // اختياري: درجة أغمق للنصوص التكميلية في الوضع الفاتح.
+  accentSoftLight?: string;
   secondary: string;
   dark: string;
   light: string;
   muted: string;
+  // اختياري: لون أغمق للنصوص الثانوية في الوضع الفاتح.
+  mutedLight?: string;
   onLight: string;
 };
 
@@ -94,11 +100,14 @@ export type SiteData = {
 export function siteThemeStyle(theme: SiteTheme): CSSProperties {
   return {
     "--brand-accent": theme.accent,
+    "--brand-accent-light": theme.accentLight ?? theme.accent,
     "--brand-accent-soft": theme.accentSoft,
+    "--brand-accent-soft-light": theme.accentSoftLight ?? theme.accentSoft,
     "--brand-secondary": theme.secondary,
     "--brand-dark": theme.dark,
     "--brand-light": theme.light,
     "--brand-muted": theme.muted,
+    ...(theme.mutedLight ? { "--brand-muted-light": theme.mutedLight } : {}),
     "--brand-on-light": theme.onLight,
   } as CSSProperties;
 }

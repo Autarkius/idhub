@@ -50,8 +50,11 @@ html[data-theme="light"] .siteRoot {
   --bg: var(--brand-light);
   --panel: color-mix(in srgb, var(--brand-light) 94%, var(--brand-dark));
   --footer-bg: color-mix(in srgb, var(--brand-light) 89%, var(--brand-dark));
+  /* المواقع اللي مش محددة درجة فاتحة بتاخد نفس اللون الأساسي زي الأول. */
+  --accent: var(--brand-accent-light, var(--brand-accent));
+  --accent-soft: var(--brand-accent-soft-light, var(--brand-accent-soft));
   --text: var(--brand-dark);
-  --muted: color-mix(in srgb, var(--brand-dark) 62%, var(--brand-light));
+  --muted: var(--brand-muted-light, color-mix(in srgb, var(--brand-dark) 62%, var(--brand-light)));
   --header-bg: color-mix(in srgb, var(--brand-light) 82%, transparent);
   --reveal-bg: var(--brand-light);
 }
