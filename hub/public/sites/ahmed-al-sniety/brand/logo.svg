@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="600" viewBox="0 0 600 600">
+  <rect width="600" height="600" fill="#0f766e"/>
+  <circle cx="300" cy="300" r="210" fill="none" stroke="#fff" stroke-width="12"/>
+  <circle cx="300" cy="300" r="130" fill="#fff"/>
+  <path d="M210 300 L300 210 L390 300 L300 390 Z" fill="#0f766e"/>
+  <text x="300" y="480" font-family="Arial, sans-serif" font-size="42" font-weight="bold" fill="#fff" text-anchor="middle">أ.س</text>
+  <text x="300" y="540" font-family="Arial, sans-serif" font-size="24" fill="#e2e8f0" text-anchor="middle">أحمد السنيتي</text>
+</svg>
