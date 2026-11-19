@@ -3,7 +3,7 @@ import { generateTheme } from "@/lib/generate-theme";
 
 // ===== أج ديزاين =====
 // غيّر اللون الأساسي هنا وكل الألوان هتتحسب تلقائي 👇
-const theme = generateTheme("#b08d68");
+const theme = generateTheme("#B68483");
 
 const brand = {
   name: "أج ديزاين",
