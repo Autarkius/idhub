@@ -3,7 +3,7 @@ import { generateTheme } from "@/lib/generate-theme";
 
 // ===== م / زين العتيبي =====
 // غيّر اللون الأساسي هنا وكل الألوان هتتحسب تلقائي 👇
-const theme = generateTheme("#b08d68");
+const theme = generateTheme("#d4a373");
 
 const brand = {
   name: "م / زين العتيبي",
@@ -16,13 +16,6 @@ const brand = {
 };
 
 const projects: Project[] = [
-  {
-    slug: "project-1",
-    name: "صالون مع كرسي أخضر",
-    category: "تصميم داخلي / صالون",
-    image: "/sites/zaininterior/images/projects/insta-project-3.webp",
-    href: "#works",
-  },
   {
     slug: "project-2",
     name: "صالون فخم مع ديكورات ذهبية",
