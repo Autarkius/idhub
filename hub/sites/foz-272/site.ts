@@ -37,20 +37,6 @@ const projects: Project[] = [
     image: "/sites/foz-272/images/projects/project-3.webp",
     href: "#works",
   },
-  {
-    slug: "project-4",
-    name: "مجلس شرقي",
-    category: "مجالس",
-    image: "/sites/foz-272/images/projects/project-4.webp",
-    href: "#works",
-  },
-  {
-    slug: "project-5",
-    name: "تفاصيل ديكور",
-    category: "إكسسوارات",
-    image: "/sites/foz-272/images/projects/project-5.webp",
-    href: "#works",
-  },
 ];
 
 const about = {
