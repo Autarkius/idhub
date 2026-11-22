@@ -3,7 +3,7 @@ import { generateTheme } from "@/lib/generate-theme";
 
 // ===== أمجد ديزاينز =====
 // غيّر اللون الأساسي هنا وكل الألوان هتتحسب تلقائي 👇
-const theme = generateTheme("#5D4037");
+const theme = generateTheme("#0F172A");
 
 const brand = {
   name: "أمجد ديزاينز",
@@ -17,56 +17,56 @@ const brand = {
 const projects: Project[] = [
   {
     slug: "project-1",
-    name: "غرفة معيشة عصرية",
+    name: "غرفة معيشة عصرية بأثاث فاخر وإضاءة راقية",
     category: "تصميم داخلي",
     image: "/sites/amjaddesigns/images/projects/project-1.webp",
     href: "#works",
   },
   {
     slug: "project-2",
-    name: "جلسة مريحة بإضاءة دافئة",
+    name: "جلسة معيشة بإضاءة دافئة وأرفف خلفية مضاءة",
     category: "تصميم داخلي",
     image: "/sites/amjaddesigns/images/projects/project-2.webp",
     href: "#works",
   },
   {
     slug: "project-3",
-    name: "طاولة سرير معاصرة",
+    name: "حلول تخزين ذكية للكابلات في الأثاث المخصص",
     category: "أثاث مخصص",
     image: "/sites/amjaddesigns/images/projects/project-3.webp",
     href: "#works",
   },
   {
     slug: "project-4",
-    name: "غرفة نوم بشجرة داخلية",
+    name: "صالون ومطعم بديكور معاصر وطاولة طعام أنيقة",
     category: "تصميم داخلي",
     image: "/sites/amjaddesigns/images/projects/project-4.webp",
     href: "#works",
   },
   {
     slug: "project-5",
-    name: "كرسي أخضر بسيط",
+    name: "كرسي أخضر في غرفة بسيطة بأناقة مودرن",
     category: "أثاث مخصص",
     image: "/sites/amjaddesigns/images/projects/project-5.webp",
     href: "#works",
   },
   {
     slug: "project-6",
-    name: "صالون فاخر بمصعد كريستال",
+    name: "صالون فاخر بكريستال وأثاث كلاسيكي فاخر",
     category: "تصميم داخلي",
     image: "/sites/amjaddesigns/images/projects/project-6.webp",
     href: "#works",
   },
   {
     slug: "project-7",
-    name: "مداخل 현대ية",
+    name: "مدخل أنيق بمقاعد معاطف ومرايا عصرية",
     category: "تصميم داخلي",
     image: "/sites/amjaddesigns/images/projects/project-7.webp",
     href: "#works",
   },
   {
     slug: "project-8",
-    name: "بار ومطابخ عصرية",
+    name: "بار منزلي ومطابخ مودرن بأثاث مخصص",
     category: "أثاث مخصص",
     image: "/sites/amjaddesigns/images/projects/project-8.webp",
     href: "#works",
