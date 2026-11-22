@@ -13,19 +13,20 @@ import { site as site7 } from "./asmaa/site";
 import { site as site8 } from "./deemah/site";
 import { site as site9 } from "./fadhilah-vivid/site";
 import { site as site10 } from "./faten/site";
-import { site as site11 } from "./ghaidaa/site";
-import { site as site12 } from "./hams2014/site";
-import { site as site13 } from "./hnerz/site";
-import { site as site14 } from "./huda/site";
-import { site as site15 } from "./juna/site";
-import { site as site16 } from "./maged/site";
-import { site as site17 } from "./moaz/site";
-import { site as site18 } from "./moza/site";
-import { site as site19 } from "./nourah-alfalih/site";
-import { site as site20 } from "./r-design79/site";
-import { site as site21 } from "./reem-design9/site";
-import { site as site22 } from "./sara/site";
-import { site as site23 } from "./zaininterior/site";
+import { site as site11 } from "./foz-272/site";
+import { site as site12 } from "./ghaidaa/site";
+import { site as site13 } from "./hams2014/site";
+import { site as site14 } from "./hnerz/site";
+import { site as site15 } from "./huda/site";
+import { site as site16 } from "./juna/site";
+import { site as site17 } from "./maged/site";
+import { site as site18 } from "./moaz/site";
+import { site as site19 } from "./moza/site";
+import { site as site20 } from "./nourah-alfalih/site";
+import { site as site21 } from "./r-design79/site";
+import { site as site22 } from "./reem-design9/site";
+import { site as site23 } from "./sara/site";
+import { site as site24 } from "./zaininterior/site";
 
 export const sites: Record<string, SiteData> = {
   "abeer": site0,
@@ -39,19 +40,20 @@ export const sites: Record<string, SiteData> = {
   "deemah": site8,
   "fadhilah-vivid": site9,
   "faten": site10,
-  "ghaidaa": site11,
-  "hams2014": site12,
-  "hnerz": site13,
-  "huda": site14,
-  "juna": site15,
-  "maged": site16,
-  "moaz": site17,
-  "moza": site18,
-  "nourah-alfalih": site19,
-  "r-design79": site20,
-  "reem-design9": site21,
-  "sara": site22,
-  "zaininterior": site23,
+  "foz-272": site11,
+  "ghaidaa": site12,
+  "hams2014": site13,
+  "hnerz": site14,
+  "huda": site15,
+  "juna": site16,
+  "maged": site17,
+  "moaz": site18,
+  "moza": site19,
+  "nourah-alfalih": site20,
+  "r-design79": site21,
+  "reem-design9": site22,
+  "sara": site23,
+  "zaininterior": site24,
 };
 
 export const siteList = Object.entries(sites).map(([slug, site]) => ({ slug, site }));
