@@ -1,16 +1,16 @@
 import type { Contact, Project, ServiceItem, SiteData } from "@/lib/site";
 import { generateTheme } from "@/lib/generate-theme";
 
-// ===== دالال ديزاين — DALAL | DESIGN =====
+// ===== دلال ديزاين — DALAL | DESIGN =====
 // غيّر اللون الأساسي هنا وكل الألوان هتتحسب تلقائي 👇
 const theme = generateTheme("#A0522D");
 
 const brand = {
-  name: "دالال ديزاين",
+  name: "دلال ديزاين",
   logo: "/sites/hams2014/brand/logo.webp",
   logoWidth: 60,
   logoHeight: 60,
-  title: "دالال ديزاين",
+  title: "دلال ديزاين",
   description: "تصميم داخلي، تشطيبات، وتنسيق ضيافة",
 };
 
@@ -43,7 +43,7 @@ const projects: Project[] = [
 
 const about = {
   eyebrow: "من نحن",
-  title: "دالال — مصممة داخلية ومنسقة ضيافة",
+  title: "دلال — مصممة داخلية ومنسقة ضيافة",
   text: "مصممة داخلية متخصصة في تحويل المساحات إلى تجارب بصرية ملهِمة، مع اهتمام بأدق تفاصيل التصميم والتنفيذ. من ديكورات المنازل إلى التشطيبات الداخلية وتنسيق الضيافة، نقدم تصاميم تجمع بين الجمال والوظيفة بأسلوب عصري يناسب ذوقك.",
 };
 
@@ -103,7 +103,7 @@ const identity = {
     "أناقة واحترافية في كل تفاصيل الضيافة.",
   ],
   image: "/sites/hams2014/identity.webp",
-  imageLabel: "دالال ديزاين",
+  imageLabel: "دلال ديزاين",
 };
 
 const testimonials = {
@@ -120,7 +120,7 @@ const clients = {
 
 const contact: Contact = {
   ctaEyebrow: "تواصل معنا",
-  ctaTitle: "ابدأ مشروعك مع دالال ديزاين",
+  ctaTitle: "ابدأ مشروعك مع دلال ديزاين",
   ctaButton: "تواصل عبر سناب شات",
   ctaHref: "https://www.snapchat.com/@hams2014",
   whatsapp: "https://wa.me/966502941996",
@@ -129,7 +129,7 @@ const contact: Contact = {
   branches: [{ address: "الرياض، الرياض، المملكه العربيه السعوديه" }],
   social: {
     facebook: "",
-    instagram: "",
+    instagram: "https://www.instagram.com/hams2014/",
     x: "",
     linkedin: "",
     snapchat: "https://www.snapchat.com/@hams2014",
@@ -139,7 +139,7 @@ const contact: Contact = {
     googlePlay: "",
     appStore: "",
   },
-  copyright: "© 2026 دالال ديزاين",
+  copyright: "© 2026 دلال ديزاين",
 };
 
 const nav = [
