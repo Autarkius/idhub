@@ -21,9 +21,10 @@ import { site as site15 } from "./maged/site";
 import { site as site16 } from "./moaz/site";
 import { site as site17 } from "./moza/site";
 import { site as site18 } from "./nourah-alfalih/site";
-import { site as site19 } from "./reem-design9/site";
-import { site as site20 } from "./sara/site";
-import { site as site21 } from "./zaininterior/site";
+import { site as site19 } from "./r-design79/site";
+import { site as site20 } from "./reem-design9/site";
+import { site as site21 } from "./sara/site";
+import { site as site22 } from "./zaininterior/site";
 
 export const sites: Record<string, SiteData> = {
   "abeer": site0,
@@ -45,9 +46,10 @@ export const sites: Record<string, SiteData> = {
   "moaz": site16,
   "moza": site17,
   "nourah-alfalih": site18,
-  "reem-design9": site19,
-  "sara": site20,
-  "zaininterior": site21,
+  "r-design79": site19,
+  "reem-design9": site20,
+  "sara": site21,
+  "zaininterior": site22,
 };
 
 export const siteList = Object.entries(sites).map(([slug, site]) => ({ slug, site }));
