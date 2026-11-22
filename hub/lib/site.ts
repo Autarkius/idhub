@@ -26,6 +26,7 @@ export type Project = {
   category: string;
   image: string | null;
   href: string;
+  description?: string;
 };
 
 export type ServiceItem = {

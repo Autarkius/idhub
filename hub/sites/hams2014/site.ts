@@ -17,24 +17,27 @@ const brand = {
 const projects: Project[] = [
   {
     slug: "project-1",
-    name: "جولة منزلية مودرن مزر",
+    name: "مشروع 1",
     category: "تصميم داخلي",
     image: "/sites/hams2014/images/projects/project-1.webp",
     href: "#works",
+    description: "يمكنك وضع وصف المشروع هنا",
   },
   {
     slug: "project-2",
-    name: "لياسة وتشطيبات جدران",
+    name: "مشروع 2",
     category: "أشغال داخلية",
     image: "/sites/hams2014/images/projects/project-2.webp",
     href: "#works",
+    description: "يمكنك وضع وصف المشروع هنا",
   },
   {
     slug: "project-3",
-    name: "مشاريع دهان وطلاء",
+    name: "مشروع 3",
     category: "أشغال داخلية",
     image: "/sites/hams2014/images/projects/project-3.webp",
     href: "#works",
+    description: "يمكنك وضع وصف المشروع هنا",
   },
 ];
 

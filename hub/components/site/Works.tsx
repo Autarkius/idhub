@@ -86,6 +86,9 @@ export default function Works({
                 <span className={styles.number}>{String(i + 1).padStart(2, "0")}</span>
                 <p className={styles.category}>{p.category}</p>
                 <h3 className={styles.name}>{p.name}</h3>
+                {p.description && (
+                  <p className={styles.category}>{p.description}</p>
+                )}
                 <a href={p.href} className={styles.view}>
                   عرض
                 </a>
