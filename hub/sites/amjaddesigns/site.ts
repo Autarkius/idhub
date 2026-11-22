@@ -3,7 +3,7 @@ import { generateTheme } from "@/lib/generate-theme";
 
 // ===== أمجد ديزاينز — أمجد الوابل =====
 // غيّر اللون الأساسي هنا وكل الألوان هتتحسب تلقائي 👇
-const theme = generateTheme("#0F172A");
+const theme = generateTheme("#D4A373");
 
 const brand = {
   name: "أمجد ديزاينز",

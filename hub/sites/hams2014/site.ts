@@ -3,7 +3,7 @@ import { generateTheme } from "@/lib/generate-theme";
 
 // ===== دالال ديزاين — DALAL | DESIGN =====
 // غيّر اللون الأساسي هنا وكل الألوان هتتحسب تلقائي 👇
-const theme = generateTheme("#111827");
+const theme = generateTheme("#A0522D");
 
 const brand = {
   name: "دالال ديزاين",
