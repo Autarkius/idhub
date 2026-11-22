@@ -24,13 +24,6 @@ const projects: Project[] = [
     href: "#works",
   },
   {
-    slug: "bedroom-2",
-    name: "غرفة نوم مودرن",
-    category: "غرف نوم",
-    image: "/sites/fadhilah-vivid/images/projects/bedroom-2.webp",
-    href: "#works",
-  },
-  {
     slug: "dining",
     name: "غرفة طعام",
     category: "غرف طعام",
@@ -42,13 +35,6 @@ const projects: Project[] = [
     name: "رواق داخلي",
     category: "أروقة",
     image: "/sites/fadhilah-vivid/images/projects/hallway.webp",
-    href: "#works",
-  },
-  {
-    slug: "bedroom-3",
-    name: "غرفة نوم 3",
-    category: "غرف نوم",
-    image: "/sites/fadhilah-vivid/images/projects/bedroom-3.webp",
     href: "#works",
   },
 ];
