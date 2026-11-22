@@ -17,7 +17,7 @@ const brand = {
 const projects: Project[] = [
   {
     slug: "project-1",
-    name: "مشروع 1",
+    name: "مشروع تجريبي",
     category: "تصميم داخلي",
     image: "/sites/hams2014/images/projects/project-1.webp",
     href: "#works",
@@ -60,6 +60,22 @@ const projects: Project[] = [
     name: "مشروع تجريبي",
     category: "تصميم داخلي",
     image: "/sites/hams2014/images/projects/project-6.webp",
+    href: "#works",
+    description: "يمكنك وضع وصف المشروع هنا",
+  },
+  {
+    slug: "project-7",
+    name: "مشروع تجريبي",
+    category: "تصميم داخلي",
+    image: "/sites/hams2014/images/projects/project-7.webp",
+    href: "#works",
+    description: "يمكنك وضع وصف المشروع هنا",
+  },
+  {
+    slug: "project-8",
+    name: "مشروع تجريبي",
+    category: "تصميم داخلي",
+    image: "/sites/hams2014/images/projects/project-8.webp",
     href: "#works",
     description: "يمكنك وضع وصف المشروع هنا",
   },
