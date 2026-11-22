@@ -18,22 +18,22 @@ const brand = {
 const projects: Project[] = [
   {
     slug: "project-1",
-    name: "أعمال تركيب",
-    category: "تنفيذ وتركيب",
+    name: "صالة جلوس",
+    category: "غرف معيشة",
     image: "/sites/foz-272/images/projects/project-1.webp",
     href: "#works",
   },
   {
     slug: "project-2",
-    name: "تراس خارجي",
-    category: "مساحات خارجية",
+    name: "مدخل فخم",
+    category: "مداخل وممرات",
     image: "/sites/foz-272/images/projects/project-2.webp",
     href: "#works",
   },
   {
     slug: "project-3",
-    name: "جلسات داخلية",
-    category: "غرف معيشة",
+    name: "مطبخ مودرن",
+    category: "مطابخ",
     image: "/sites/foz-272/images/projects/project-3.webp",
     href: "#works",
   },
