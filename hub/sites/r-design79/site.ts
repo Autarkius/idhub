@@ -55,30 +55,6 @@ const projects: Project[] = [
     href: "#works",
     description: "يمكنك وضع وصف المشروع هنا",
   },
-  {
-    slug: "project-6",
-    name: "مشروع 6",
-    category: "أثاث مخصص",
-    image: "/sites/r-design79/images/projects/project-6.webp",
-    href: "#works",
-    description: "يمكنك وضع وصف المشروع هنا",
-  },
-  {
-    slug: "project-7",
-    name: "مشروع 7",
-    category: "تصميم داخلي",
-    image: "/sites/r-design79/images/projects/project-7.webp",
-    href: "#works",
-    description: "يمكنك وضع وصف المشروع هنا",
-  },
-  {
-    slug: "project-8",
-    name: "مشروع 8",
-    category: "تصميم داخلي",
-    image: "/sites/r-design79/images/projects/project-8.webp",
-    href: "#works",
-    description: "يمكنك وضع وصف المشروع هنا",
-  },
 ];
 
 const about = {
