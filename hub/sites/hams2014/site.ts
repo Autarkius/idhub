@@ -11,72 +11,37 @@ const brand = {
   logoWidth: 60,
   logoHeight: 60,
   title: "دالال ديزاين",
-  description: "تصميم داخلي وتنسيق ضيافة",
+  description: "تصميم داخلي وديكورات منازل",
 };
 
 const projects: Project[] = [
   {
     slug: "project-1",
-    name: "جولة منزلية مودرن",
+    name: "جولة منزلية مودرن مزر",
     category: "تصميم داخلي",
     image: "/sites/hams2014/images/projects/project-1.webp",
     href: "#works",
   },
   {
     slug: "project-2",
-    name: "تنسيق طاولة شاي أنيق",
-    category: "تنسيق ضيافة",
+    name: "لياسة وتشطيبات جدران",
+    category: "أشغال داخلية",
     image: "/sites/hams2014/images/projects/project-2.webp",
     href: "#works",
   },
   {
     slug: "project-3",
-    name: "عرض تذوق القهوة",
-    category: "ضيافة وكافيهات",
-    image: "/sites/hams2014/images/projects/project-3.webp",
-    href: "#works",
-  },
-  {
-    slug: "project-4",
-    name: "تقديم شاي النعناع",
-    category: "تنسيق ضيافة",
-    image: "/sites/hams2014/images/projects/project-4.webp",
-    href: "#works",
-  },
-  {
-    slug: "project-5",
-    name: "تنسيق كابتشينو",
-    category: "ضيافة وكافيهات",
-    image: "/sites/hams2014/images/projects/project-5.webp",
-    href: "#works",
-  },
-  {
-    slug: "project-6",
-    name: "رول الشوكولاتة الفاخر",
-    category: "تنسيق حلويات",
-    image: "/sites/hams2014/images/projects/project-6.webp",
-    href: "#works",
-  },
-  {
-    slug: "project-7",
-    name: "اللياسة والتشطيبات",
+    name: "مشاريع دهان وطلاء",
     category: "أشغال داخلية",
-    image: "/sites/hams2014/images/projects/project-7.webp",
-    href: "#works",
-  },
-  {
-    slug: "project-8",
-    name: "ساندويشات مصغرة للمناسبات",
-    category: "تنسيق ضيافة",
-    image: "/sites/hams2014/images/projects/project-8.webp",
+    image: "/sites/hams2014/images/projects/project-3.webp",
     href: "#works",
   },
 ];
 
 const about = {
   eyebrow: "من نحن",
-  title: "دالال — مصممة داخلية ومنسقة ضيافة",
-  text: "مصممة داخلية متخصصة في تحويل المساحات إلى تجارب بصرية ملهِمة، ومنسقة ضيافة تهتم بأدق تفاصيل التقديم والتنسيق. نجمع بين الإبداع والاحترافية لنصمم لك مساحات ومناسبات تترك انطباعاً يدوم.",
+  title: "دالال — مصممة داخلية وديكور",
+  text: "مصممة داخلية متخصصة في تحويل المساحات إلى تجارب بصرية ملهِمة، مع اهتمام بأدق تفاصيل التصميم والتنفيذ. من ديكورات المنازل إلى التشطيبات الداخلية، نقدم تصاميم تجمع بين الجمال والوظيفة بأسلوب عصري يناسب ذوقك.",
 };
 
 const services = {
@@ -94,13 +59,13 @@ const services = {
       key: "service-2",
       icon: "paint-roller",
       title: "التشطيبات والدهانات",
-      text: "تنفيذ لياسة ودهانات احترافية لمساحات داخلية وخارجية.",
+      text: "تنفيذ لياسة ودهانات احترافية للمساحات الداخلية والخارجية.",
     },
     {
       key: "service-3",
       icon: "ruler",
-      title: "تنسيق الضيافة",
-      text: "تنسيق طاولات وضيافة للمناسبات، الكافيهات، والفعاليات الخاصة.",
+      title: "الديكور المنزلي",
+      text: "تنسيق وتصميم ديكورات المنازل بأسلوب عصري ومميز.",
     },
   ] satisfies ServiceItem[],
 };
@@ -109,9 +74,9 @@ const identity = {
   eyebrow: "فلسفتنا",
   outline: "DALAL",
   title: "عنوان قسم الهوية",
-  text: "نؤمن بأن التصميم ليس مجرد شكل، بل تجربة vivenها الناس every day. كل التفاصيل صغيرة كانت أو كبيرة تصنع الفارق.",
+  text: "نؤمن بأن التصميم ليس مجرد شكل، بل تجربة يعيشها الناس كل يوم. كل التفاصيل صغيرة كانت أو كبيرة تصنع الفارق في مساحة المنزل.",
   points: [
-    "اهتمام بأدق تفاصيل التقديم.",
+    "اهتمام بأدق تفاصيل التصميم.",
     "جودة عالية في التنفيذ والتشطيب.",
     "تصاميم تعكس ذوق العميل وشخصيته.",
   ],
