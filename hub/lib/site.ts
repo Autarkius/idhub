@@ -54,7 +54,7 @@ export type Contact = {
   phone?: string;
   email: string;
   branches: Branch[];
-  social: { facebook: string; instagram: string; x: string; linkedin: string };
+  social: { facebook: string; instagram: string; x: string; linkedin: string; snapchat?: string };
   apps: { microsoft: string; googlePlay: string; appStore: string };
   copyright: string;
 };

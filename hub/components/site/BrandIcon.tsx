@@ -1,9 +1,18 @@
-import { siAppstore, siFacebook, siGoogleplay, siInstagram, siWhatsapp, siX } from "simple-icons";
+import { siAppstore, siFacebook, siGoogleplay, siInstagram, siSnapchat, siWhatsapp, siX } from "simple-icons";
 
 // لوجوهات البراندات من Simple Icons.
 // LinkedIn وMicrosoft Store مش موجودين في المكتبة، فمكانهم أشكال مؤقتة لحد ما توصل ملفات SVG.
 
-type Brand = "facebook" | "instagram" | "x" | "linkedin" | "whatsapp" | "googleplay" | "appstore" | "microsoft";
+type Brand =
+  | "facebook"
+  | "instagram"
+  | "x"
+  | "linkedin"
+  | "whatsapp"
+  | "googleplay"
+  | "appstore"
+  | "microsoft"
+  | "snapchat";
 
 const paths: Partial<Record<Brand, string>> = {
   facebook: siFacebook.path,
@@ -12,6 +21,7 @@ const paths: Partial<Record<Brand, string>> = {
   whatsapp: siWhatsapp.path,
   googleplay: siGoogleplay.path,
   appstore: siAppstore.path,
+  snapchat: siSnapchat.path,
 };
 
 export default function BrandIcon({

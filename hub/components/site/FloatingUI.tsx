@@ -99,6 +99,11 @@ export default function FloatingUI({ contact, slug }: { contact: Contact; slug: 
               <BrandIcon name="facebook" size={15} />
             </a>
           ) : null}
+          {contact.social.snapchat ? (
+            <a href={contact.social.snapchat} aria-label="Snapchat">
+              <BrandIcon name="snapchat" size={15} />
+            </a>
+          ) : null}
           {contact.branches[0]?.map ? (
             <a href={contact.branches[0].map} aria-label="موقعنا على الخريطة">
               <MapPin size={17.5} strokeWidth={1.9} />

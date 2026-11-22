@@ -92,6 +92,11 @@ export default function Footer({ contact }: { contact: Contact }) {
                 <BrandIcon name="linkedin" size={14.6} />
               </a>
             ) : null}
+            {social.snapchat ? (
+              <a href={social.snapchat} aria-label="Snapchat">
+                <BrandIcon name="snapchat" size={14.6} />
+              </a>
+            ) : null}
           </div>
         </div>
       </div>
