@@ -1,16 +1,16 @@
 import type { Contact, Project, ServiceItem, SiteData } from "@/lib/site";
 import { generateTheme } from "@/lib/generate-theme";
 
-// ===== أمجد ديزاينز — أمجد الوابل =====
+// ===== أمجاد ديزاينز — أمجد الوابل =====
 // غيّر اللون الأساسي هنا وكل الألوان هتتحسب تلقائي 👇
 const theme = generateTheme("#D4A373");
 
 const brand = {
-  name: "أمجد ديزاينز",
+  name: "أمجاد ديزاينز",
   logo: "/sites/amjaddesigns/brand/logo.webp",
   logoWidth: 60,
   logoHeight: 60,
-  title: "أمجد ديزاينز",
+  title: "أمجاد ديزاينز",
   description: "تصميم داخلي وديكورات منازل فاخرة",
 };
 
@@ -141,7 +141,7 @@ const identity = {
     "دمج بين الحداثة والفخامة في كل مشروع.",
   ],
   image: "/sites/amjaddesigns/identity.webp",
-  imageLabel: "أمجد ديزاينز",
+  imageLabel: "أمجاد ديزاينز",
 };
 
 const testimonials = {
@@ -158,7 +158,7 @@ const clients = {
 
 const contact: Contact = {
   ctaEyebrow: "تواصل معنا",
-  ctaTitle: "ابدأ مشروعك مع أمجد ديزاينز",
+  ctaTitle: "ابدأ مشروعك مع أمجاد ديزاينز",
   ctaButton: "تواصل عبر سناب شات",
   ctaHref: "https://www.snapchat.com/@amjaddesigns",
   whatsapp: "https://wa.me/966XXXXXXXXX",
@@ -176,7 +176,7 @@ const contact: Contact = {
     googlePlay: "",
     appStore: "",
   },
-  copyright: "© 2026 أمجد ديزاينز",
+  copyright: "© 2026 أمجاد ديزاينز",
 };
 
 const nav = [
