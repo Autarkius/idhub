@@ -114,8 +114,8 @@
 }
 
 .posterOverlay strong {
-  font-size: 14.6px;
-  line-height: 16.8px;
+  font-size: 12px;
+  line-height: 16px;
 }
 
 .posterOverlay small {
@@ -156,24 +156,24 @@
 
 .number {
   font-weight: 900;
-  font-size: 14.6px;
-  line-height: 27.4px;
+  font-size: 12px;
+  line-height: 24px;
   color: var(--accent);
   text-transform: uppercase;
 }
 
 .category {
   padding-top: 20.1px;
-  font-size: 14.6px;
-  line-height: 20.4px;
+  font-size: 13px;
+  line-height: 18px;
   color: color-mix(in srgb, var(--on-media) 74%, transparent);
 }
 
 .name {
   padding-bottom: 9.45px;
   font-weight: 700;
-  font-size: 39px;
-  line-height: 37px;
+  font-size: 28px;
+  line-height: 32px;
   color: var(--on-media);
 }
 
@@ -187,8 +187,8 @@
   border: 1px solid var(--gold-76);
   border-radius: 999px;
   font-weight: 900;
-  font-size: 14.6px;
-  line-height: 27.4px;
+  font-size: 12px;
+  line-height: 24px;
   color: var(--accent);
   text-transform: uppercase;
   text-align: center;
@@ -247,7 +247,7 @@
     transform: none;
   }
   .name {
-    font-size: 26px;
-    line-height: 30px;
+    font-size: 22px;
+    line-height: 26px;
   }
 }
