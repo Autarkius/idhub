@@ -24,20 +24,6 @@ const projects: Project[] = [
     href: "#works",
   },
   {
-    slug: "interior-design-modern",
-    name: "تصميم داخلي أنيق",
-    category: "تصميم داخلي",
-    image: "/sites/rahav_id/images/projects/project-1.webp",
-    href: "#works",
-  },
-  {
-    slug: "garden-design-modern",
-    name: "تصميم حدائق أنيق",
-    category: "تصميم حدائق",
-    image: "/sites/rahav_id/images/projects/project-2.webp",
-    href: "#works",
-  },
-  {
     slug: "villa-desert-concept",
     name: "فيلا ديزرت Concept",
     category: "تصميم فلل",
