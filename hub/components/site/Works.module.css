@@ -132,7 +132,7 @@
   flex-direction: column;
   align-items: flex-end;
   gap: 5.1px;
-  padding: 20.384px;
+  padding: 26px;
   text-align: left;
   pointer-events: none;
   z-index: 1;
@@ -163,14 +163,14 @@
 }
 
 .category {
-  padding-top: 20.1px;
+  padding-top: 26px;
   font-size: 13px;
   line-height: 18px;
   color: color-mix(in srgb, var(--on-media) 74%, transparent);
 }
 
 .name {
-  padding-bottom: 9.45px;
+  padding-bottom: 14px;
   font-weight: 700;
   font-size: 28px;
   line-height: 32px;
