@@ -2,8 +2,9 @@ import type { Contact, Project, ServiceItem, SiteData } from "@/lib/site";
 import { generateTheme } from "@/lib/generate-theme";
 
 // ===== حياة الهزاع =====
-// غيّر اللون الأساسي هنا وكل الألوان هتتحسب تلقائي 👇
-const theme = generateTheme("#7FB3A8");
+// اللون الأساسي مأخوذ من ألوان مشاريعها الفعلية (بيج دافئ من صورة البودر روم)
+// غيّر اللون هنا وكل الألوان هتتحسب تلقائي 👇
+const theme = generateTheme("#9A8873");
 
 const brand = {
   name: "حياة الهزاع",
@@ -18,7 +19,7 @@ const brand = {
 const projects: Project[] = [
   {
     slug: "project-1",
-    name: "مشروع 1",
+    name: "A touch of timeless elegance. A powder room where the warmth of beige meets the refreshing charm of turquoise.",
     category: "تصميم داخلي / دورة مياه",
     image: "/sites/hayat-alhazzaa/images/projects/project-1.webp",
     href: "#works",
@@ -26,15 +27,15 @@ const projects: Project[] = [
   },
   {
     slug: "project-2",
-    name: "مشروع 2",
-    category: "تصميم داخلي / صالة معيشة",
+    name: "في تصميم المجالس، نحرص على خلق مساحة تجمع بين الفخامة والراحة، مع الاهتمام بأدق التفاصيل لتعكس ذوق صاحب المنزل وشخصيته",
+    category: "تصميم داخلي / مجلس",
     image: "/sites/hayat-alhazzaa/images/projects/project-2.webp",
     href: "#works",
     description: "يمكنك وضع وصف المشروع هنا",
   },
   {
     slug: "project-3",
-    name: "مشروع 3",
+    name: "مساحة جلسة مختصرة بتفاصيل راقية ودافئة ومريحة للاسترخاء والهدوء بألوان وخامات مختارة بعناية لتناسب رقي وفخامة التصميم",
     category: "تصميم داخلي / جلسة",
     image: "/sites/hayat-alhazzaa/images/projects/project-3.webp",
     href: "#works",
@@ -42,16 +43,16 @@ const projects: Project[] = [
   },
   {
     slug: "project-4",
-    name: "مشروع 4",
-    category: "تصميم داخلي / مجلس",
+    name: "A design that combines luxury and intellectual symbolism, where the details of the artworks harmonize with the ambiance",
+    category: "تصميم داخلي / فخامة",
     image: "/sites/hayat-alhazzaa/images/projects/project-4.webp",
     href: "#works",
     description: "يمكنك وضع وصف المشروع هنا",
   },
   {
     slug: "project-5",
-    name: "مشروع 5",
-    category: "تصميم داخلي / غرفة طعام",
+    name: "تصميم داخلي فاخر يدمج بين الرقي والرمزية الفكرية، حيث تتناغم تفاصيل الأعمال الفنية مع أجواء المكان",
+    category: "تصميم داخلي / لوحات فنية",
     image: "/sites/hayat-alhazzaa/images/projects/project-5.webp",
     href: "#works",
     description: "يمكنك وضع وصف المشروع هنا",
