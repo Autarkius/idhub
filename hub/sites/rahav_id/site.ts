@@ -6,13 +6,13 @@ import { generateTheme } from "@/lib/generate-theme";
 const theme = generateTheme("#c08497");
 
 const brand = {
-  name: "Rahaf Interior Design",
+  name: "رهف للتصميم الداخلي",
   logo: "/sites/rahav_id/brand/logo.webp",
   logoWidth: 60,
   logoHeight: 60,
-  title: "م. Raff | تصميم داخلي | مصممة داخلية",
+  title: "م. رهف | تصميم داخلي | مصممة داخلية",
   description:
-    "مصممة داخلية وجرافيك معتمدة من الهيئة السعودية للمهندسين. نصمم مساحات داخلية تجمع بين الأناقة والراحة، مع تأثيث وتصميم حسب الطلب.",
+    "م. رهف، مصممة داخلية وجرافيك معتمدة من الهيئة السعودية للمهندسين. نصمم مساحات داخلية تجمع بين الأناقة والراحة، مع تأثيث وتصميم حسب الطلب.",
 };
 
 const projects: Project[] = [
@@ -85,7 +85,7 @@ const about = {
   eyebrow: "مصممة داخلية وجرافيك",
   title: "مساحات تُصمَّم لتروي قصة أناقتك",
   text:
-    "رhaf، مصممة داخلية وجرافيك معتمدة من الهيئة السعودية للمهندسين. نصمم مساحات داخلية تجمع بين الأناقة والراحة والوظيفة، مع تأثيث وتصميم حسب الطلب لتلبي ذوقك وتستغل المساحات بأعلى كفاءة وجمالية.",
+    "م. رهف، مصممة داخلية وجرافيك معتمدة من الهيئة السعودية للمهندسين. نصمم مساحات داخلية تجمع بين الأناقة والراحة والوظيفة، مع تأثيث وتصميم حسب الطلب لتلبي ذوقك وتستغل المساحات بأعلى كفاءة وجمالية.",
 };
 
 const services = {
@@ -143,7 +143,7 @@ const clients = {
 
 const contact: Contact = {
   ctaEyebrow: "جاهز لبدء مشروعك؟",
-  ctaTitle: "ابدأ مشروعك مع م. Raff",
+  ctaTitle: "ابدأ مشروعك مع م. رهف",
   ctaButton: "تواصل عبر واتساب",
   ctaHref: "https://wsend.co/966551908476",
   whatsapp: "https://wsend.co/966551908476",
@@ -161,7 +161,7 @@ const contact: Contact = {
     googlePlay: "",
     appStore: "",
   },
-  copyright: `© ${new Date().getFullYear()} Rahaf Interior Design`,
+  copyright: `© ${new Date().getFullYear()} م. رهف`,
 };
 
 const nav = [
@@ -174,7 +174,7 @@ const nav = [
 ];
 
 export const site: SiteData = {
-  greetName: "م. Raff",
+  greetName: "م. رهف",
   createdAt: "2026-11",
   brand,
   theme,
