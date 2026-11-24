@@ -17,13 +17,6 @@ const brand = {
 
 const projects: Project[] = [
   {
-    slug: "interior-design-elegant",
-    name: "تصميم داخلي ساحر",
-    category: "تصميم داخلي",
-    image: "/sites/rahav_id/images/projects/project-0.webp",
-    href: "#works",
-  },
-  {
     slug: "villa-desert-concept",
     name: "فيلا ديزرت Concept",
     category: "تصميم فلل",
@@ -52,10 +45,10 @@ const projects: Project[] = [
     href: "#works",
   },
   {
-    slug: "design-reflects-identity",
-    name: "تصميم يعكس هويتك",
-    category: "تصميم داخلي",
-    image: "/sites/rahav_id/images/projects/project-7.webp",
+    slug: "living-room-modern",
+    name: "غرفة معيشة مودرن",
+    category: "معيشة",
+    image: "/sites/rahav_id/images/projects/project-10.webp",
     href: "#works",
   },
   {
