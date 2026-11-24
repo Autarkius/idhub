@@ -19,7 +19,7 @@ const brand = {
 const projects: Project[] = [
   {
     slug: "project-1",
-    name: "A touch of timeless elegance. A powder room where the warmth of beige meets the refreshing charm of turquoise.",
+    name: "دورة مياه أنيقة ببيج دافئ وفيروزي منعش",
     category: "تصميم داخلي / دورة مياه",
     image: "/sites/hayat-alhazzaa/images/projects/project-1.webp",
     href: "#works",
@@ -27,7 +27,7 @@ const projects: Project[] = [
   },
   {
     slug: "project-2",
-    name: "في تصميم المجالس، نحرص على خلق مساحة تجمع بين الفخامة والراحة، مع الاهتمام بأدق التفاصيل لتعكس ذوق صاحب المنزل وشخصيته",
+    name: "مجلس يجمع بين الفخامة والراحة وأدق التفاصيل",
     category: "تصميم داخلي / مجلس",
     image: "/sites/hayat-alhazzaa/images/projects/project-2.webp",
     href: "#works",
@@ -35,7 +35,7 @@ const projects: Project[] = [
   },
   {
     slug: "project-3",
-    name: "مساحة جلسة مختصرة بتفاصيل راقية ودافئة ومريحة للاسترخاء والهدوء بألوان وخامات مختارة بعناية لتناسب رقي وفخامة التصميم",
+    name: "جلسة راقية ودافئة بألوان وخامات مختارة بعناية",
     category: "تصميم داخلي / جلسة",
     image: "/sites/hayat-alhazzaa/images/projects/project-3.webp",
     href: "#works",
@@ -43,7 +43,7 @@ const projects: Project[] = [
   },
   {
     slug: "project-4",
-    name: "A design that combines luxury and intellectual symbolism, where the details of the artworks harmonize with the ambiance",
+    name: "تصميم فاخر يدمج الرقي بالرمزية الفنية",
     category: "تصميم داخلي / فخامة",
     image: "/sites/hayat-alhazzaa/images/projects/project-4.webp",
     href: "#works",
@@ -51,7 +51,7 @@ const projects: Project[] = [
   },
   {
     slug: "project-5",
-    name: "تصميم داخلي فاخر يدمج بين الرقي والرمزية الفكرية، حيث تتناغم تفاصيل الأعمال الفنية مع أجواء المكان",
+    name: "تصميم فاخر تتناغم فيه الأعمال الفنية مع المكان",
     category: "تصميم داخلي / لوحات فنية",
     image: "/sites/hayat-alhazzaa/images/projects/project-5.webp",
     href: "#works",
