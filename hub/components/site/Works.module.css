@@ -149,9 +149,11 @@
 }
 
 .info > * {
-  align-self: stretch;
+  align-self: flex-end;
   direction: rtl;
   text-align: left;
+  max-width: 100%;
+  overflow-wrap: break-word;
 }
 
 .number {
