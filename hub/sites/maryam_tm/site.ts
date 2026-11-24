@@ -17,13 +17,6 @@ const brand = {
 
 const projects: Project[] = [
   {
-    slug: "before-after-transformation",
-    name: "تحول كامل للمساحة",
-    category: "تصميم داخلي",
-    image: "/sites/maryam_tm/images/projects/project-1.webp",
-    href: "#works",
-  },
-  {
     slug: "cafe-interior",
     name: "مقهى مودرن",
     category: "تصميم تجاري",
@@ -38,21 +31,21 @@ const projects: Project[] = [
     href: "#works",
   },
   {
-    slug: "lawyer-office",
-    name: "مكتب محاماه",
-    category: "تصميم مكاتب",
-    image: "/sites/maryam_tm/images/projects/project-9.webp",
+    slug: "villa-interior",
+    name: "داخلية فيلا",
+    category: "تصميم فلل",
+    image: "/sites/maryam_tm/images/projects/project-8.webp",
     href: "#works",
   },
   {
-    slug: "living-room-modern",
-    name: "غرفة معيشة مودرن",
+    slug: "living-room-plants",
+    name: "غرفة معيشة نباتات",
     category: "معيشة",
     image: "/sites/maryam_tm/images/projects/project-10.webp",
     href: "#works",
   },
   {
-    slug: "bathroom-luxury",
+    slug: "bathroom-pink",
     name: "حمام فاخر",
     category: "حمامات",
     image: "/sites/maryam_tm/images/projects/project-11.webp",
