@@ -16,17 +16,18 @@ import { site as site10 } from "./faten/site";
 import { site as site11 } from "./foz-272/site";
 import { site as site12 } from "./ghaidaa/site";
 import { site as site13 } from "./hams2014/site";
-import { site as site14 } from "./hnerz/site";
-import { site as site15 } from "./huda/site";
-import { site as site16 } from "./juna/site";
-import { site as site17 } from "./maged/site";
-import { site as site18 } from "./moaz/site";
-import { site as site19 } from "./moza/site";
-import { site as site20 } from "./nourah-alfalih/site";
-import { site as site21 } from "./r-design79/site";
-import { site as site22 } from "./reem-design9/site";
-import { site as site23 } from "./sara/site";
-import { site as site24 } from "./zaininterior/site";
+import { site as site14 } from "./hayat-alhazzaa/site";
+import { site as site15 } from "./hnerz/site";
+import { site as site16 } from "./huda/site";
+import { site as site17 } from "./juna/site";
+import { site as site18 } from "./maged/site";
+import { site as site19 } from "./moaz/site";
+import { site as site20 } from "./moza/site";
+import { site as site21 } from "./nourah-alfalih/site";
+import { site as site22 } from "./r-design79/site";
+import { site as site23 } from "./reem-design9/site";
+import { site as site24 } from "./sara/site";
+import { site as site25 } from "./zaininterior/site";
 
 export const sites: Record<string, SiteData> = {
   "abeer": site0,
@@ -43,17 +44,18 @@ export const sites: Record<string, SiteData> = {
   "foz-272": site11,
   "ghaidaa": site12,
   "hams2014": site13,
-  "hnerz": site14,
-  "huda": site15,
-  "juna": site16,
-  "maged": site17,
-  "moaz": site18,
-  "moza": site19,
-  "nourah-alfalih": site20,
-  "r-design79": site21,
-  "reem-design9": site22,
-  "sara": site23,
-  "zaininterior": site24,
+  "hayat-alhazzaa": site14,
+  "hnerz": site15,
+  "huda": site16,
+  "juna": site17,
+  "maged": site18,
+  "moaz": site19,
+  "moza": site20,
+  "nourah-alfalih": site21,
+  "r-design79": site22,
+  "reem-design9": site23,
+  "sara": site24,
+  "zaininterior": site25,
 };
 
 export const siteList = Object.entries(sites).map(([slug, site]) => ({ slug, site }));
