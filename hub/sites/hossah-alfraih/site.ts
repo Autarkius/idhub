@@ -16,18 +16,18 @@ const brand = {
 };
 
 const projects: Project[] = [
-  { slug: "project-1", name: "صالون بأقواس وتفاصيل راقية", category: "محلات تجارية", image: "/sites/hossah-alfraih/images/projects/project-1.webp", href: "#works" },
-  { slug: "project-2", name: "ردهة مدخل بإنارة معلّقة", category: "مداخل", image: "/sites/hossah-alfraih/images/projects/project-2.webp", href: "#works" },
-  { slug: "project-3", name: "منطقة جلوس وانتظار", category: "محلات تجارية", image: "/sites/hossah-alfraih/images/projects/project-3.webp", href: "#works" },
-  { slug: "project-4", name: "جدار بتفاصيل كلاسيكية", category: "تفاصيل جدارية", image: "/sites/hossah-alfraih/images/projects/project-4.webp", href: "#works" },
-  { slug: "project-5", name: "ركن عرض مضاء", category: "واجهات عرض", image: "/sites/hossah-alfraih/images/projects/project-5.webp", href: "#works" },
-  { slug: "project-6", name: "منطقة عناية بالأظافر", category: "محلات تجارية", image: "/sites/hossah-alfraih/images/projects/project-6.webp", href: "#works" },
+  { slug: "project-1", name: "تصميم صالون: أقواس ورفوف عرض", category: "لقطات من التصاميم", image: "/sites/hossah-alfraih/images/projects/project-1.webp", href: "#works" },
+  { slug: "project-2", name: "ردهة بإنارة معلّقة", category: "لقطات من التصاميم", image: "/sites/hossah-alfraih/images/projects/project-2.webp", href: "#works" },
+  { slug: "project-3", name: "منطقة جلوس وأرضيات", category: "لقطات من التصاميم", image: "/sites/hossah-alfraih/images/projects/project-3.webp", href: "#works" },
+  { slug: "project-4", name: "لوحة فنية وتفاصيل جدارية", category: "لقطات من التصاميم", image: "/sites/hossah-alfraih/images/projects/project-4.webp", href: "#works" },
+  { slug: "project-5", name: "جلسة وطاولات جانبية", category: "لقطات من التصاميم", image: "/sites/hossah-alfraih/images/projects/project-5.webp", href: "#works" },
+  { slug: "project-6", name: "رفوف عرض مضاءة", category: "لقطات من التصاميم", image: "/sites/hossah-alfraih/images/projects/project-6.webp", href: "#works" },
 ];
 
 const about = {
   eyebrow: "مصممة ديكور",
   title: "عمق في كل التفاصيل، وتصميم لا يشبه المكرر",
-  text: "م. حصه الفريح، مصممة ديكور معتمدة بوثيقة العمل الحر. نصمم المساحات السكنية والتجارية بعناية بالتفاصيل، من المخططات حتى التنفيذ.",
+  text: "م. حصه الفريح، مصممة ديكور حاصلة على وثيقة العمل الحر. تهتم بالتفاصيل في تصميم المساحات الداخلية.",
 };
 
 const services = {
@@ -39,35 +39,35 @@ const services = {
       key: "interior",
       icon: "sofa",
       title: "التصميم الداخلي",
-      text: "تصاميم للمساحات السكنية والتجارية تجمع بين الجمال والراحة وتناسب أسلوب حياتك.",
+      text: "تصميم داخلي للمساحات السكنية والتجارية بعناية في التفاصيل.",
     },
     {
-      key: "furnishing",
+      key: "kitchens",
       icon: "paint-roller",
-      title: "التنسيق والتأثيث",
-      text: "اختيار الأثاث والخامات والإكسسوارات وتنسيق المساحة حتى تكتمل كما صُممت.",
+      title: "المطابخ والخزائن",
+      text: "تصميم مطابخ وخزائن ملابس ضمن أعمالها المعروضة.",
     },
     {
-      key: "consulting",
+      key: "plans",
       icon: "ruler",
-      title: "التنفيذ والإشراف",
-      text: "متابعة التنفيذ في الموقع لضمان أن النتيجة النهائية مطابقة للتصميم.",
+      title: "المخططات والتصور",
+      text: "مخططات وتصاميم ثلاثية الأبعاد توضح الفكرة قبل التنفيذ.",
     },
   ] satisfies ServiceItem[],
 };
 
 const identity = {
-  eyebrow: "طريقتنا في العمل",
-  outline: "حصه الفريح للتصميم الداخلي",
-  title: "كيف نصمم مساحتك؟",
-  text: "نبدأ بالاستماع لاحتياجاتك وذوقك، ثم نحولها إلى تصميم واضح تراه قبل التنفيذ، ونتابع معك التأثيث والتشطيب حتى آخر تفصيلة.",
+  eyebrow: "أسلوبنا",
+  outline: "حصه الفريح",
+  title: "التفاصيل أولًا",
+  text: "نبحث عن العمق في كل تفصيلة، ونبتعد عن التفاصيل السطحية المكررة.",
   points: [
-    "فهم احتياجاتك ومعاينة المساحة وقياسها.",
-    "تصميم ومخططات تناسب أسلوب حياتك.",
-    "تنفيذ وإشراف ومتابعة حتى التسليم.",
+    "اهتمام بالتفاصيل الدقيقة.",
+    "تصاميم سكنية وتجارية.",
+    "مخططات وتصور ثلاثي الأبعاد.",
   ],
   image: "/sites/hossah-alfraih/images/identity.webp",
-  imageLabel: "حصه الفريح للتصميم الداخلي",
+  imageLabel: "حصه الفريح",
 };
 
 const testimonials = {
