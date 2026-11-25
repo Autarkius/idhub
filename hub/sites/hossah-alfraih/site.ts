@@ -16,8 +16,8 @@ const brand = {
 };
 
 const projects: Project[] = [
-  { slug: "project-1", name: "ردهة مدخل بإنارة معلّقة", category: "مداخل", image: "/sites/hossah-alfraih/images/projects/project-1.webp", href: "#works" },
-  { slug: "project-2", name: "صالون بأقواس وتفاصيل راقية", category: "محلات تجارية", image: "/sites/hossah-alfraih/images/projects/project-2.webp", href: "#works" },
+  { slug: "project-1", name: "صالون بأقواس وتفاصيل راقية", category: "محلات تجارية", image: "/sites/hossah-alfraih/images/projects/project-1.webp", href: "#works" },
+  { slug: "project-2", name: "ردهة مدخل بإنارة معلّقة", category: "مداخل", image: "/sites/hossah-alfraih/images/projects/project-2.webp", href: "#works" },
   { slug: "project-3", name: "منطقة جلوس وانتظار", category: "محلات تجارية", image: "/sites/hossah-alfraih/images/projects/project-3.webp", href: "#works" },
   { slug: "project-4", name: "جدار بتفاصيل كلاسيكية", category: "تفاصيل جدارية", image: "/sites/hossah-alfraih/images/projects/project-4.webp", href: "#works" },
   { slug: "project-5", name: "ركن عرض مضاء", category: "واجهات عرض", image: "/sites/hossah-alfraih/images/projects/project-5.webp", href: "#works" },
