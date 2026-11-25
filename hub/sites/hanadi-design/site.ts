@@ -49,7 +49,7 @@ const services = {
       key: "furnish",
       icon: "paint-roller",
       title: "التنفيذ والتأثيث",
-      text: "تنفيذ وتأثيث حسب ما تعلنه في صفحتها.",
+      text: "تنفيذ وتأثيث للمساحات السكنية.",
     },
   ] satisfies ServiceItem[],
 };
