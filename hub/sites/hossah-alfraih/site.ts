@@ -3,7 +3,7 @@ import { generateTheme } from "@/lib/generate-theme";
 
 // ===== حصه الفريح Interior Design =====
 // غيّر اللون الأساسي هنا وكل الألوان هتتحسب تلقائي 👇
-const theme = generateTheme("#5E5651");
+const theme = generateTheme("#C4B2A0");
 
 const brand = {
   name: "حصه الفريح للتصميم الداخلي",
