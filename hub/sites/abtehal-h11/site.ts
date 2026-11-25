@@ -82,7 +82,7 @@ const contact: Contact = {
   whatsapp: "https://wa.me/message/AVFUWLD7VO2HN1",
   phone: "+966 53 049 6976",
   email: "",
-  branches: [],
+  branches: [{ address: "عرعر، المملكة العربية السعودية" }],
   social: {
     facebook: "",
     instagram: "https://www.instagram.com/abtehal_h11",
