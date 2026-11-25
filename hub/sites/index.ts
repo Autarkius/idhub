@@ -14,22 +14,26 @@ import { site as site8 } from "./deemah/site";
 import { site as site9 } from "./fadhilah-vivid/site";
 import { site as site10 } from "./faten/site";
 import { site as site11 } from "./foz-272/site";
-import { site as site12 } from "./ghaidaa/site";
-import { site as site13 } from "./hams2014/site";
-import { site as site14 } from "./hayat-alhazzaa/site";
-import { site as site15 } from "./hnerz/site";
-import { site as site16 } from "./huda/site";
-import { site as site17 } from "./juna/site";
-import { site as site18 } from "./maged/site";
-import { site as site19 } from "./maryam_tm/site";
-import { site as site20 } from "./moaz/site";
-import { site as site21 } from "./moza/site";
-import { site as site22 } from "./nourah-alfalih/site";
-import { site as site23 } from "./r-design79/site";
-import { site as site24 } from "./rahav_id/site";
-import { site as site25 } from "./reem-design9/site";
-import { site as site26 } from "./sara/site";
-import { site as site27 } from "./zaininterior/site";
+import { site as site12 } from "./gad-esign/site";
+import { site as site13 } from "./ghaidaa/site";
+import { site as site14 } from "./hams2014/site";
+import { site as site15 } from "./hanadi-design/site";
+import { site as site16 } from "./hayat-alhazzaa/site";
+import { site as site17 } from "./hnerz/site";
+import { site as site18 } from "./hossah-alfraih/site";
+import { site as site19 } from "./huda/site";
+import { site as site20 } from "./juna/site";
+import { site as site21 } from "./maged/site";
+import { site as site22 } from "./maryam_tm/site";
+import { site as site23 } from "./moaz/site";
+import { site as site24 } from "./moza/site";
+import { site as site25 } from "./nourah-alfalih/site";
+import { site as site26 } from "./r-design79/site";
+import { site as site27 } from "./rahav_id/site";
+import { site as site28 } from "./reem-design9/site";
+import { site as site29 } from "./sara/site";
+import { site as site30 } from "./wejdan-home/site";
+import { site as site31 } from "./zaininterior/site";
 
 export const sites: Record<string, SiteData> = {
   "abeer": site0,
@@ -44,22 +48,26 @@ export const sites: Record<string, SiteData> = {
   "fadhilah-vivid": site9,
   "faten": site10,
   "foz-272": site11,
-  "ghaidaa": site12,
-  "hams2014": site13,
-  "hayat-alhazzaa": site14,
-  "hnerz": site15,
-  "huda": site16,
-  "juna": site17,
-  "maged": site18,
-  "maryam_tm": site19,
-  "moaz": site20,
-  "moza": site21,
-  "nourah-alfalih": site22,
-  "r-design79": site23,
-  "rahav_id": site24,
-  "reem-design9": site25,
-  "sara": site26,
-  "zaininterior": site27,
+  "gad-esign": site12,
+  "ghaidaa": site13,
+  "hams2014": site14,
+  "hanadi-design": site15,
+  "hayat-alhazzaa": site16,
+  "hnerz": site17,
+  "hossah-alfraih": site18,
+  "huda": site19,
+  "juna": site20,
+  "maged": site21,
+  "maryam_tm": site22,
+  "moaz": site23,
+  "moza": site24,
+  "nourah-alfalih": site25,
+  "r-design79": site26,
+  "rahav_id": site27,
+  "reem-design9": site28,
+  "sara": site29,
+  "wejdan-home": site30,
+  "zaininterior": site31,
 };
 
 export const siteList = Object.entries(sites).map(([slug, site]) => ({ slug, site }));
