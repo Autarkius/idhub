@@ -18,7 +18,7 @@ const brand = {
 const projects: Project[] = [
   { slug: "project-1", name: "صالة معيشة بدرجات دافئة", category: "لقطات من التصاميم", image: "/sites/mn-design/images/projects/project-1.webp", href: "#works" },
   { slug: "project-2", name: "صالة بدرجات العاجي", category: "لقطات من التصاميم", image: "/sites/mn-design/images/projects/project-2.webp", href: "#works" },
-  { slug: "project-3", name: "ركن معيشة عصري", category: "لقطات من التصاميم", image: "/sites/mn-design/images/projects/project-3.webp", href: "#works" },
+  { slug: "project-3", name: "صالة معيشة عصرية", category: "لقطات من التصاميم", image: "/sites/mn-design/images/projects/project-3.webp", href: "#works" },
   { slug: "project-4", name: "صالة كلاسيكية بمرايا وثريا", category: "لقطات من التصاميم", image: "/sites/mn-design/images/projects/project-4.webp", href: "#works" },
   { slug: "project-5", name: "غرفة سينما منزلية", category: "لقطات من التصاميم", image: "/sites/mn-design/images/projects/project-5.webp", href: "#works" },
 ];
