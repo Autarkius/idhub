@@ -11,33 +11,34 @@ import { site as site5 } from "./amal/site";
 import { site as site6 } from "./amjaddesigns/site";
 import { site as site7 } from "./ashwaq/site";
 import { site as site8 } from "./asmaa/site";
-import { site as site9 } from "./deemah/site";
-import { site as site10 } from "./done-interior/site";
-import { site as site11 } from "./fadhilah-vivid/site";
-import { site as site12 } from "./faten/site";
-import { site as site13 } from "./foz-272/site";
-import { site as site14 } from "./gad-esign/site";
-import { site as site15 } from "./ghaidaa/site";
-import { site as site16 } from "./hams2014/site";
-import { site as site17 } from "./hanadi-design/site";
-import { site as site18 } from "./hayat-alhazzaa/site";
-import { site as site19 } from "./hnerz/site";
-import { site as site20 } from "./hossah-alfraih/site";
-import { site as site21 } from "./huda/site";
-import { site as site22 } from "./juna/site";
-import { site as site23 } from "./karma-alsaegh/site";
-import { site as site24 } from "./maged/site";
-import { site as site25 } from "./maryam_tm/site";
-import { site as site26 } from "./mn-design/site";
-import { site as site27 } from "./moaz/site";
-import { site as site28 } from "./moza/site";
-import { site as site29 } from "./nourah-alfalih/site";
-import { site as site30 } from "./r-design79/site";
-import { site as site31 } from "./rahav_id/site";
-import { site as site32 } from "./reem-design9/site";
-import { site as site33 } from "./sara/site";
-import { site as site34 } from "./wejdan-home/site";
-import { site as site35 } from "./zaininterior/site";
+import { site as site9 } from "./bayan-altuwaijri/site";
+import { site as site10 } from "./deemah/site";
+import { site as site11 } from "./done-interior/site";
+import { site as site12 } from "./fadhilah-vivid/site";
+import { site as site13 } from "./faten/site";
+import { site as site14 } from "./foz-272/site";
+import { site as site15 } from "./gad-esign/site";
+import { site as site16 } from "./ghaidaa/site";
+import { site as site17 } from "./hams2014/site";
+import { site as site18 } from "./hanadi-design/site";
+import { site as site19 } from "./hayat-alhazzaa/site";
+import { site as site20 } from "./hnerz/site";
+import { site as site21 } from "./hossah-alfraih/site";
+import { site as site22 } from "./huda/site";
+import { site as site23 } from "./juna/site";
+import { site as site24 } from "./karma-alsaegh/site";
+import { site as site25 } from "./maged/site";
+import { site as site26 } from "./maryam_tm/site";
+import { site as site27 } from "./mn-design/site";
+import { site as site28 } from "./moaz/site";
+import { site as site29 } from "./moza/site";
+import { site as site30 } from "./nourah-alfalih/site";
+import { site as site31 } from "./r-design79/site";
+import { site as site32 } from "./rahav_id/site";
+import { site as site33 } from "./reem-design9/site";
+import { site as site34 } from "./sara/site";
+import { site as site35 } from "./wejdan-home/site";
+import { site as site36 } from "./zaininterior/site";
 
 export const sites: Record<string, SiteData> = {
   "abeer": site0,
@@ -49,33 +50,34 @@ export const sites: Record<string, SiteData> = {
   "amjaddesigns": site6,
   "ashwaq": site7,
   "asmaa": site8,
-  "deemah": site9,
-  "done-interior": site10,
-  "fadhilah-vivid": site11,
-  "faten": site12,
-  "foz-272": site13,
-  "gad-esign": site14,
-  "ghaidaa": site15,
-  "hams2014": site16,
-  "hanadi-design": site17,
-  "hayat-alhazzaa": site18,
-  "hnerz": site19,
-  "hossah-alfraih": site20,
-  "huda": site21,
-  "juna": site22,
-  "karma-alsaegh": site23,
-  "maged": site24,
-  "maryam_tm": site25,
-  "mn-design": site26,
-  "moaz": site27,
-  "moza": site28,
-  "nourah-alfalih": site29,
-  "r-design79": site30,
-  "rahav_id": site31,
-  "reem-design9": site32,
-  "sara": site33,
-  "wejdan-home": site34,
-  "zaininterior": site35,
+  "bayan-altuwaijri": site9,
+  "deemah": site10,
+  "done-interior": site11,
+  "fadhilah-vivid": site12,
+  "faten": site13,
+  "foz-272": site14,
+  "gad-esign": site15,
+  "ghaidaa": site16,
+  "hams2014": site17,
+  "hanadi-design": site18,
+  "hayat-alhazzaa": site19,
+  "hnerz": site20,
+  "hossah-alfraih": site21,
+  "huda": site22,
+  "juna": site23,
+  "karma-alsaegh": site24,
+  "maged": site25,
+  "maryam_tm": site26,
+  "mn-design": site27,
+  "moaz": site28,
+  "moza": site29,
+  "nourah-alfalih": site30,
+  "r-design79": site31,
+  "rahav_id": site32,
+  "reem-design9": site33,
+  "sara": site34,
+  "wejdan-home": site35,
+  "zaininterior": site36,
 };
 
 export const siteList = Object.entries(sites).map(([slug, site]) => ({ slug, site }));
