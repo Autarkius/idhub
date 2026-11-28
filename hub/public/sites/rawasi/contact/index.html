@@ -19,17 +19,28 @@
 <div class="ct-info"><span class="eyebrow">طرق التواصل</span><h2 class="rv">الأسرع هو واتساب</h2>
 <a class="btn btn-gold" href="https://wa.me/966500000000?text=%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%20%D8%B9%D9%84%D9%8A%D9%83%D9%85%D8%8C%20%D8%A3%D8%B1%D9%8A%D8%AF%20%D8%A7%D8%B3%D8%AA%D8%B4%D8%A7%D8%B1%D8%A9%20%D9%87%D9%86%D8%AF%D8%B3%D9%8A%D8%A9" target="_blank" rel="noopener">ابدأ محادثة على واتساب</a>
 <dl><div><dt>الهاتف</dt><dd dir="ltr">+966 50 000 0000</dd></div><div><dt>البريد</dt><dd dir="ltr">hello@rawasi-demo.sa</dd></div><div><dt>العنوان</dt><dd>طريق الملك فهد، حي العليا، الرياض</dd></div><div><dt>أوقات العمل</dt><dd>الأحد إلى الخميس، 9 ص إلى 5 م</dd></div></dl></div>
-<form class="ct-form rv" id="cf" novalidate><h3>أرسل لنا نبذة عن مشروعك</h3>
-<label>الاسم<input name="n" required autocomplete="name"></label>
-<label>رقم الجوال<input name="p" inputmode="tel" dir="ltr" required autocomplete="tel"></label>
-<label>نوع المشروع<select name="t"><option>فيلا سكنية</option><option>مبنى تجاري</option><option>ضيافة</option><option>تخطيط عمراني</option><option>أخرى</option></select></label>
-<label>نبذة قصيرة<textarea name="m" rows="4"></textarea></label>
-<button class="btn btn-gold" type="submit">أرسل عبر واتساب</button><small>يفتح واتساب برسالة جاهزة بما كتبته.</small></form></div></section><footer class="ft"><div class="wrap">
+<form class="ct-form rv" id="cf" novalidate><h3>طلب مشروع</h3><p class="ct-lead">عبّئوا التفاصيل وسنجهز لكم رسالة واتساب جاهزة بكل المعلومات.</p>
+<fieldset class="f-full" data-req="t"><legend>نوع المشروع <b>*</b></legend><div class="opts">
+<label class="opt"><input type="radio" name="t" value="سكني"><span>سكني</span></label><label class="opt"><input type="radio" name="t" value="تجاري"><span>تجاري</span></label><label class="opt"><input type="radio" name="t" value="ضيافة"><span>ضيافة</span></label><label class="opt"><input type="radio" name="t" value="تخطيط عمراني"><span>تخطيط عمراني</span></label></div><em class="err"></em></fieldset>
+<div class="f"><label for="city">المدينة <b>*</b></label><input id="city" name="city" autocomplete="address-level2" placeholder="مثال: الرياض"><em class="err"></em></div>
+<div class="f"><label for="area">المساحة التقريبية (م²)</label><input id="area" name="area" inputmode="numeric" placeholder="مثال: 600"><em class="err"></em></div>
+<fieldset class="f-full" data-req="stage"><legend>المرحلة المطلوبة <b>*</b> <small>يمكن اختيار أكثر من واحدة</small></legend><div class="opts">
+<label class="opt"><input type="checkbox" name="stage" value="تصميم"><span>تصميم</span></label><label class="opt"><input type="checkbox" name="stage" value="إشراف"><span>إشراف</span></label><label class="opt"><input type="checkbox" name="stage" value="إدارة مشاريع"><span>إدارة مشاريع</span></label></div><em class="err"></em></fieldset>
+<div class="f"><label for="budget">الميزانية التقريبية</label><select id="budget" name="budget"><option value="">غير محددة بعد</option><option>أقل من 500 ألف ريال</option><option>من 500 ألف إلى 2 مليون ريال</option><option>من 2 إلى 10 ملايين ريال</option><option>أكثر من 10 ملايين ريال</option></select></div>
+<div class="f"><label for="time">الجدول الزمني</label><select id="time" name="time"><option value="">مرن</option><option>خلال 3 أشهر</option><option>من 3 إلى 6 أشهر</option><option>من 6 إلى 12 شهرًا</option><option>أكثر من سنة</option></select></div>
+<div class="f f-full"><label for="det">تفاصيل المشروع</label><textarea id="det" name="det" rows="4" placeholder="الموقع، عدد الأدوار، أي متطلبات خاصة..."></textarea></div>
+<div class="f"><label for="nm">الاسم <b>*</b></label><input id="nm" name="n" autocomplete="name"><em class="err"></em></div>
+<div class="f"><label for="ph">الجوال <b>*</b></label><input id="ph" name="p" inputmode="tel" dir="ltr" autocomplete="tel" placeholder="05xxxxxxxx"><em class="err"></em></div>
+<div class="f f-full"><label for="em">البريد الإلكتروني</label><input id="em" name="e" type="email" dir="ltr" autocomplete="email" placeholder="name@example.com"><em class="err"></em></div>
+<div class="f-full f-act"><button class="btn btn-gold" type="submit">أرسل الطلب عبر واتساب</button><small>يفتح واتساب برسالة مرتبة بكل ما كتبته. لا يتم حفظ أي بيانات.</small></div></form></div></section><footer class="ft"><div class="wrap">
 <div class="ft-top"><div class="ft-brand"><svg viewBox="0 0 44 44" width="40" height="40" aria-hidden="true"><path d="M4 40V18L22 5l18 13v22" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M13 40V24a9 9 0 0 1 18 0v16" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M22 15v25" stroke="currentColor" stroke-width="1.6"/></svg><h3>رواسي للاستشارات الهندسية</h3><p>نصمم ونشرف ونبني، بعناية تليق بمشاريعكم.</p></div>
 <div><h4>المكتب</h4><a href="/rawasi/about">عن المكتب</a><a href="/rawasi/projects">المشاريع</a><a href="/rawasi/contact">تواصل</a></div>
 <div><h4>الخدمات</h4><a href="/rawasi/services/architectural-design">التصميم المعماري</a><a href="/rawasi/services/engineering-design">التصميم الإنشائي والكهروميكانيكي</a><a href="/rawasi/services/supervision">الإشراف على التنفيذ</a><a href="/rawasi/services/project-management">إدارة المشاريع والتخطيط</a></div>
 <div><h4>مشاريع مختارة</h4><a href="/rawasi/projects/villa-alwaha">فيلا الواحة</a><a href="/rawasi/projects/ofuq-tower">برج الأفق</a><a href="/rawasi/projects/riwaq-alfunun">رواق الفنون</a><a href="/rawasi/projects/wadi-alsukhur">منتجع وادي الصخور</a></div></div>
-<div class="ft-bot"><span>© 2026 رواسي للاستشارات الهندسية. موقع تجريبي لأغراض العرض.</span><a href="https://wa.me/966500000000?text=%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%20%D8%B9%D9%84%D9%8A%D9%83%D9%85%D8%8C%20%D8%A3%D8%B1%D9%8A%D8%AF%20%D8%A7%D8%B3%D8%AA%D8%B4%D8%A7%D8%B1%D8%A9%20%D9%87%D9%86%D8%AF%D8%B3%D9%8A%D8%A9" target="_blank" rel="noopener">واتساب: <bdi dir="ltr">+966 50 000 0000</bdi></a></div>
+<div class="ft-social"><div class="ft-soc-l"><span>تابعونا</span>
+<a href="https://wa.me/966500000000" target="_blank" rel="noopener">واتساب</a><a href="https://www.instagram.com/rawasi.demo" target="_blank" rel="noopener">إنستغرام</a><a href="https://x.com/rawasi_demo" target="_blank" rel="noopener">إكس</a><a href="https://www.linkedin.com/company/rawasi-demo" target="_blank" rel="noopener">لينكدإن</a><a href="https://www.tiktok.com/@rawasi.demo" target="_blank" rel="noopener">تيك توك</a></div>
+<div class="ft-soc-r"><a href="tel:+966500000000" dir="ltr">+966 50 000 0000</a><a href="mailto:hello@rawasi-demo.sa" dir="ltr">hello@rawasi-demo.sa</a></div></div>
+<div class="ft-bot"><span>© 2026 رواسي للاستشارات الهندسية. موقع تجريبي لأغراض العرض.</span></div>
 </div></footer>
 <a class="wa-float" href="https://wa.me/966500000000?text=%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%20%D8%B9%D9%84%D9%8A%D9%83%D9%85%D8%8C%20%D8%A3%D8%B1%D9%8A%D8%AF%20%D8%A7%D8%B3%D8%AA%D8%B4%D8%A7%D8%B1%D8%A9%20%D9%87%D9%86%D8%AF%D8%B3%D9%8A%D8%A9" target="_blank" rel="noopener" aria-label="واتساب"><span><em>تواصل عبر </em>واتساب</span></a>
 <script src="/sites/rawasi/assets/main.js" defer></script></body></html>
