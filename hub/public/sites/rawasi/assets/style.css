@@ -1,4 +1,7 @@
-:root{--ink:#0d0e0c;--ink2:#161814;--ivory:#f5f0e6;--bone:#ebe3d3;--gold:#b48d58;--gold2:#cfae7c;--mut:#8b8576;--line:rgba(180,141,88,.28);--fd:"Noto Kufi Arabic","IBM Plex Sans Arabic",sans-serif;--fb:"IBM Plex Sans Arabic","Noto Kufi Arabic",sans-serif;--fn:"IBM Plex Sans Arabic",sans-serif;--w:1240px;--ease:cubic-bezier(.22,.7,.2,1)}
+@font-face{font-family:"Thmanyah Serif Display";src:url("/sites/rawasi/assets/fonts/thmanyah-serif-display-Light.woff2") format("woff2");font-weight:200 300;font-style:normal;font-display:swap}
+@font-face{font-family:"Thmanyah Serif Display";src:url("/sites/rawasi/assets/fonts/thmanyah-serif-display-Regular.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:"Thmanyah Serif Display";src:url("/sites/rawasi/assets/fonts/thmanyah-serif-display-Medium.woff2") format("woff2");font-weight:500;font-style:normal;font-display:swap}
+:root{--ink:#0d0e0c;--ink2:#161814;--ivory:#f5f0e6;--bone:#ebe3d3;--gold:#b48d58;--gold2:#cfae7c;--mut:#8b8576;--line:rgba(180,141,88,.28);--fd:"Thmanyah Serif Display","Noto Kufi Arabic","IBM Plex Sans Arabic",serif;--fb:"IBM Plex Sans Arabic","Noto Kufi Arabic",sans-serif;--fn:"Thmanyah Serif Display","IBM Plex Sans Arabic",serif;--w:1240px;--ease:cubic-bezier(.22,.7,.2,1)}
 *{box-sizing:border-box;margin:0;padding:0}
 html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
 body{font-family:var(--fb);background:var(--ivory);color:var(--ink);line-height:1.9;font-size:17px;overflow-x:hidden;-webkit-font-smoothing:antialiased}
